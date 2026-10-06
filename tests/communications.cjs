@@ -33,6 +33,7 @@ async function denied(body,cookie,query){const x=await req(body,cookie,query);as
  await denied(null,outsider,'?thread='+encodeURIComponent(chat));await denied(null,council,'?thread='+encodeURIComponent(chat));await denied(null,admin,'?thread='+encodeURIComponent(chat));
  await denied({action:'send',thread:chat,body:'كسمك'},student);const messages=(await ok(null,teacher,'?thread='+encodeURIComponent(chat))).data.messages;assert.equal(messages.length,2);
  // Incremental delivery must preserve same-timestamp ordering and exclude private threads.
+ await ok({action:'read',thread:chat},teacher);assert.ok((await ok(null,student,'?thread='+encodeURIComponent(chat))).data.recipientSeen>0);assert.equal((await ok(null,teacher,'?thread='+encodeURIComponent(chat))).data.recipientSeen,0);await ok({action:'read',thread:chat},student);assert.ok((await ok(null,teacher,'?thread='+encodeURIComponent(chat))).data.recipientSeen>0);
  const cursorMessage=messages.at(-1);const nextTime=cursorMessage.created+1;
  for(const id of ['cursor-a','cursor-b'])sql.prepare('INSERT INTO comm_messages(id,thread,sender,label,body,file,created) VALUES(?,?,?,?,?,?,?)').run(id,chat,'teacher@els-egypt.info','Teacher','Cursor '+id,'',nextTime);
  const deltaQuery='?thread='+encodeURIComponent(chat)+'&after='+nextTime+'&afterId=cursor-a';
