@@ -30,6 +30,16 @@ async function denied(body,cookie,query){const x=await req(body,cookie,query);as
  assert.equal((await ok(null,student)).data.teachers.length,1);assert.equal((await ok(null,outsider)).data.teachers.length,0);
  await denied({action:'start',teacher:'teacher@els-egypt.info'},outsider);await denied({action:'start',teacher:'other@els-egypt.info'},student);
  const chat=(await ok({action:'start',teacher:'teacher@els-egypt.info'},student)).data.id;await ok({action:'send',thread:chat,body:'Could you explain the assignment?'},student);await ok({action:'send',thread:chat,body:'Of course. Which part?'},teacher);
+ // Teachers receive only assigned students and can initiate conversations themselves.
+ assert.equal((await ok(null,teacher)).data.contacts.some(p=>p.email==='other@els-egypt.info'),false);
+ assert.ok((await ok(null,teacher)).data.contacts.some(p=>p.email==='student@els-egypt.info'));
+ await denied({action:'start',student:'other@els-egypt.info'},teacher);
+ assert.equal((await ok({action:'start',student:'student@els-egypt.info'},teacher)).data.id,chat);
+ assert.equal((await ok(null,teacher,'?thread='+encodeURIComponent(chat))).data.thread.title,'Student');
+ await ok({action:'person',email:'learner@els-egypt.info',name:'Learner',role:'student',class_name:'8A'},admin);
+ const teacherStarted=(await ok({action:'start',student:'learner@els-egypt.info'},teacher)).data.id;
+ assert.equal(sql.prepare('SELECT teacher FROM comm_threads WHERE id=?').get(teacherStarted).teacher,'teacher@els-egypt.info');
+ tests+=3;
  await denied(null,outsider,'?thread='+encodeURIComponent(chat));await denied(null,council,'?thread='+encodeURIComponent(chat));await denied(null,admin,'?thread='+encodeURIComponent(chat));
  await denied({action:'send',thread:chat,body:'كسمك'},student);const messages=(await ok(null,teacher,'?thread='+encodeURIComponent(chat))).data.messages;assert.equal(messages.length,2);
  // Incremental delivery must preserve same-timestamp ordering and exclude private threads.
@@ -42,6 +52,24 @@ async function denied(body,cookie,query){const x=await req(body,cookie,query);as
  await denied(null,outsider,deltaQuery);await denied(null,student,'?thread='+encodeURIComponent(chat)+'&after=NaN');
  assert.equal((await ok(null,student)).data.threads.find(t=>t.id===chat).preview,'Cursor cursor-b');
  tests+=3;
+ // Replies and history search remain scoped to a single authorized conversation.
+ const replyId=messages[0].id;
+ await ok({action:'send',thread:chat,body:'Thanks for explaining.',replyTo:replyId},student);
+ const quoted=(await ok(null,teacher,'?thread='+encodeURIComponent(chat))).data.messages.at(-1);
+ assert.equal(quoted.reply.id,replyId);assert.equal(quoted.reply.body,messages[0].body);
+ await denied({action:'send',thread:chat,body:'Cross-thread quote',replyTo:privateReply.messages[0].id},student);
+ const history=(await ok(null,teacher,'?thread='+encodeURIComponent(chat)+'&q='+encodeURIComponent('explaining'))).data.messages;
+ assert.equal(history.length,1);assert.equal(history[0].id,quoted.id);
+ await denied(null,outsider,'?thread='+encodeURIComponent(chat)+'&q=explaining');
+ // Teachers can preview or download the exact bytes sent by the student.
+ const pdfBytes=Buffer.from('%PDF-1.4\n1 0 obj<</Type/Catalog>>endobj\ntrailer<</Root 1 0 R>>\n%%EOF');
+ const pdfForm=new FormData();pdfForm.append('thread',chat);pdfForm.append('file',new File([pdfBytes],'assignment.pdf',{type:'application/pdf'}));
+ const pdfUpload=await attachments.POST(new Request(origin+'/api/attachments',{method:'POST',headers:{origin,cookie:student},body:pdfForm}));assert.equal(pdfUpload.status,200);const pdfFile=await pdfUpload.json();
+ await ok({action:'send',thread:chat,body:'Please review this PDF.',file:pdfFile.id},student);
+ const pdfRead=async (who,download=false)=>attachments.GET(new Request(origin+'/api/attachments?id='+pdfFile.id+(download?'&download=1':''),{headers:{cookie:who}}));
+ const preview=await pdfRead(teacher);assert.equal(preview.status,200);assert.equal(preview.headers.get('content-type'),'application/pdf');assert.match(preview.headers.get('content-disposition'),/^inline/);assert.deepEqual(Buffer.from(await preview.arrayBuffer()),pdfBytes);
+ const downloaded=await pdfRead(teacher,true);assert.equal(downloaded.status,200);assert.match(downloaded.headers.get('content-disposition'),/^attachment/);assert.match(downloaded.headers.get('content-disposition'),/assignment.pdf/);assert.deepEqual(Buffer.from(await downloaded.arrayBuffer()),pdfBytes);
+ assert.equal((await pdfRead(outsider,true)).status,403);assert.equal((await pdfRead('',true)).status,403);tests+=10;
  const form=new FormData();form.append('thread',chat);form.append('file',new File([Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a5XcAAAAASUVORK5CYII=','base64')],'photo.png',{type:'image/png'}));const upload=await attachments.POST(new Request(origin+'/api/attachments',{method:'POST',headers:{origin,cookie:student},body:form}));assert.equal(upload.status,200);const file=await upload.json();
  const getFile=async cookie=>attachments.GET(new Request(origin+'/api/attachments?id='+file.id,{headers:{cookie}}));assert.equal((await getFile(outsider)).status,403);assert.equal((await getFile(teacher)).status,404);await ok({action:'send',thread:chat,body:'Here is the image.',file:file.id},student);assert.equal((await getFile(teacher)).status,200);
  await denied({action:'send',thread:suggestion,body:'File',file:file.id},guest);await denied({action:'send',thread:chat,body:'reuse',file:file.id},teacher);

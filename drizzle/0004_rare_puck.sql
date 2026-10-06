@@ -1,0 +1,1 @@
+ALTER TABLE `comm_messages` ADD `reply_to` text DEFAULT '' NOT NULL;

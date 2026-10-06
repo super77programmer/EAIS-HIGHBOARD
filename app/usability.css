@@ -2,4 +2,4 @@
 @keyframes page-enter{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:none}}@keyframes guide-enter{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:none}}@keyframes toast-enter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media(max-width:600px){.guide-launch{padding:8px;border:0}.guide-launch span{display:none}.tutorial-overlay{padding:14px}.tutorial-card{padding:20px;border-radius:20px}.tutorial-content h2{font-size:26px}.tutorial-card header>span{font-size:12px}.header-actions{gap:5px!important}}
 @media(prefers-reduced-motion:reduce){.page-scene,.toast,.onboarding-step,.tutorial-card,.tutorial-content{animation:none!important}.navigation button,.voice-tabs button,.feed-card,.home-shortcuts button,.meal{transition:none!important}}
-body:has(.tutorial-overlay){overflow:hidden!important}.page-scene:has(.chat-workspace){animation:none}
+.page-scene:has(.chat-workspace){animation:none}

@@ -4,6 +4,7 @@ import "./community.css";
 import "./home.css";
 import "./messaging.css";
 import "./usability.css";
+import "./core-release.css";
 
 export const metadata: Metadata = {
   title: "EAIS High Board | Student Life",
