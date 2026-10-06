@@ -1,0 +1,14 @@
+import {createRemoteJWKSet,jwtVerify} from 'jose';
+import {db} from '@/lib/db';
+import {DOMAIN,json,clean,config,random,cookie,setCookie,newSession,hash,limit,moderate} from '@/lib/communications';
+export const dynamic='force-dynamic';
+const keys=createRemoteJWKSet(new URL('https://www.googleapis.com/oauth2/v3/certs'));
+export async function POST(r:Request){try{if(r.headers.get('origin')!==new URL(r.url).origin)return json({error:'Request not allowed'},403);const raw=await r.text();if(raw.length>14000)return json({error:'Request too large'},413);const b=JSON.parse(raw);await limit('auth:'+(r.headers.get('cf-connecting-ip')||'local'),20);
+ if(b.action==='begin'){const nonce=random();return json({nonce},200,{'Set-Cookie':setCookie('hb_google_nonce',nonce,600)})}
+ if(b.action==='logout'){const token=cookie(r,'hb_identity');if(token)await db().prepare('DELETE FROM comm_sessions WHERE token=?').bind(await hash(token)).run();const response=json({ok:true});response.headers.append('Set-Cookie',setCookie('hb_identity','',0));if(b.forgetGuest){const guest=cookie(r,'hb_guest');if(guest)await db().prepare('DELETE FROM comm_sessions WHERE token=?').bind(await hash(guest)).run();response.headers.append('Set-Cookie',setCookie('hb_guest','',0))}return response}
+ const cfg=await config();if(!cfg.googleClientId)return json({error:'The school needs to connect Google sign-in first.'},503);
+ const {payload:p}=await jwtVerify(clean(b.credential,12000),keys,{audience:cfg.googleClientId,issuer:['https://accounts.google.com','accounts.google.com'],algorithms:['RS256'],maxTokenAge:'10m'});
+ if(!p.nonce||p.nonce!==cookie(r,'hb_google_nonce')||p.email_verified!==true||p.hd!==DOMAIN||typeof p.email!=='string'||!p.email.toLowerCase().endsWith('@'+DOMAIN))return json({error:'Use your verified school Google account.'},403);
+ const email=p.email.toLowerCase();const name=clean(b.name,80);await moderate(name);await db().prepare("INSERT OR IGNORE INTO comm_people(email,name,role,class_name,classes,active) VALUES(?,?,'student','','[]',1)").bind(email,name).run();const person=await db().prepare('SELECT active,role FROM comm_people WHERE email=?').bind(email).first<{active:number;role:string}>();if(!person?.active)return json({error:'This account is disabled. Contact the school.'},403);
+ if(person.role==='administrator')await db().prepare("INSERT INTO comm_config(key,value) VALUES('bootstrapClosed','1') ON CONFLICT(key) DO UPDATE SET value='1'").run();const token=await newSession(email,1);const response=json({ok:true});response.headers.append('Set-Cookie',setCookie('hb_identity',token,86400));response.headers.append('Set-Cookie',setCookie('hb_google_nonce','',0));return response;
+ }catch(e){console.error('School sign-in failed',e instanceof Error?e.message:'error');return json({error:'Could not verify school sign-in. Please try again with your school account.'},400)}}
