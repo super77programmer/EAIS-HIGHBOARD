@@ -4,17 +4,17 @@ import { Star, Shield, Check, Users } from 'lucide-react';
 import { useMotion } from '@/lib/motion';
 import { logoPaths } from '@/lib/logo-paths';
 export function LogoHero({onEnter}:{onEnter:()=>void}) {
-  const root=useRef<HTMLElement>(null),skip=useRef<HTMLButtonElement>(null);
+  const root=useRef<HTMLElement>(null);
   const {runtime}=useMotion();const enter=useRef(onEnter);enter.current=onEnter;
   const finished=useRef(false);
   const finish=useCallback(()=>{if(!finished.current){finished.current=true;enter.current()}},[]);
   useEffect(()=>{
     const previous=document.body.style.overflow;
-    document.body.style.overflow='hidden';skip.current?.focus({preventScroll:true});
+    document.body.style.overflow='hidden';root.current?.focus({preventScroll:true});
     const media=matchMedia('(prefers-reduced-motion: reduce)');
     const change=()=>{if(media.matches)finish()};change();media.addEventListener('change',change);
     const timeout=setTimeout(finish,5000);
-    const key=(event:KeyboardEvent)=>{if(event.key==='Escape')finish();if(event.key==='Tab'){event.preventDefault();skip.current?.focus()}};
+    const key=(event:KeyboardEvent)=>{if(event.key==='Escape')finish();if(event.key==='Tab'){event.preventDefault();root.current?.focus()}};
     document.addEventListener('keydown',key);
     return()=>{clearTimeout(timeout);media.removeEventListener('change',change);document.removeEventListener('keydown',key);document.body.style.overflow=previous};
   },[finish]);
@@ -37,7 +37,7 @@ export function LogoHero({onEnter}:{onEnter:()=>void}) {
     },root);
     return()=>ctx.revert();
   },[runtime,finish]);
-  return <section id="hero" className="logo-intro" ref={root} role="dialog" aria-modal="true" aria-label="Welcome to EAIS High Board"><div className="intro-content"><p className="intro-kicker">EAIS · NEW CAIRO</p><svg className="intro-logo" viewBox="-18 -15 194 109" role="img" aria-label="EAIS school logo"><defs><linearGradient id="intro-gradient" x1="0" y1="0" x2="1" y2="1"><stop stopColor="#ff5e7e"/><stop offset="1" stopColor="#ffad57"/></linearGradient></defs>{logoPaths.map((d,i)=><path key={i} className="intro-logo-path" d={d} fill="url(#intro-gradient)" stroke="#ff8d92" strokeWidth=".8"/>)}</svg><h1 className="intro-title"><span>YOUR SCHOOL.</span><span>YOUR HIGH BOARD.</span></h1><p className="intro-school">Egyptian American International School</p><div className="intro-progress" aria-hidden="true"><span/></div></div><button ref={skip} className="board-skip intro-skip" onClick={finish}>Enter my board</button></section>;
+  return <section id="hero" className="logo-intro" ref={root} tabIndex={-1} role="dialog" aria-modal="true" aria-label="Welcome to EAIS High Board"><div className="intro-content"><p className="intro-kicker">EAIS · NEW CAIRO</p><svg className="intro-logo" viewBox="-18 -15 194 109" role="img" aria-label="EAIS school logo"><defs><linearGradient id="intro-gradient" x1="0" y1="0" x2="1" y2="1"><stop stopColor="#ff5e7e"/><stop offset="1" stopColor="#ffad57"/></linearGradient></defs>{logoPaths.map((d,i)=><path key={i} className="intro-logo-path" d={d} fill="url(#intro-gradient)" stroke="#ff8d92" strokeWidth=".8"/>)}</svg><h1 className="intro-title"><span>YOUR SCHOOL.</span><span>YOUR HIGH BOARD.</span></h1><p className="intro-school">Egyptian American International School</p><div className="intro-progress" aria-hidden="true"><span/></div></div></section>;
 }
 export function MotionLayer({view,revision}:{view:string;revision:string}) {
   const {runtime,reduced}=useMotion();
