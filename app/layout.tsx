@@ -9,6 +9,7 @@ import "./workspace.css";
 import "./trips.css";
 import "./warm-utilities.css";
 import "./motion.css";
+import "./experience.css";
 
 export const metadata: Metadata = {
   title: "EAIS High Board | Student Life",

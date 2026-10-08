@@ -4,7 +4,7 @@ Clarified by the owner on 8 October 2026: keep the existing warm orange/coral th
 
 The corrected baseline is `b9dc33a`: the modern daily homepage, today's/next event, four shortcuts, reminders, upcoming events, school updates, short GSAP entrance sequence and original navigation. The older full-page logo landing section, spotlight dashboard, glance cards and week strip are superseded. `app/light.css` remains the visual foundation. `app/school-app.css` stays unimported.
 
-The entrance runs once on initial app entry and does not replay when changing pages. It completes automatically, can be skipped with its button or Escape, honours reduced motion and has a five-second fallback. It does not pin the home page during scrolling.
+The entrance runs once on initial app entry and does not replay when changing pages. It completes automatically, has no visible skip button and can be dismissed with Escape, honours reduced motion and has a five-second fallback. It does not pin the home page during scrolling.
 
 Later functionality is retained: server-assigned roles, teacher workspaces/timetables, private messages, Google sign-in hardening, large private uploads, searchable/filterable calendar, reversible trip participation, protected collection lists and assigned trip contacts/private replies. Front-end restoration does not downgrade backend security.
 

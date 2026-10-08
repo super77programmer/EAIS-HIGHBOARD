@@ -17,7 +17,13 @@ global.__testFiles.resumeMultipartUpload=(key,id)=>({async uploadPart(n,b){asser
 async function call(handler,body,cookie='',query='',type='application/json'){const r=new Request(origin+'/api/test'+query,{method:body?'POST':'GET',headers:{origin,cookie,'content-type':type},...(body?{body:type==='application/json'?JSON.stringify(body):body}:{})});const res=await handler[body?'POST':'GET'](r);return {status:res.status,data:await res.json()}}
 (async()=>{
 for(const p of [{email:'s@els-egypt.info',name:'Student',role:'student',class_name:'8A'},{email:'o@els-egypt.info',name:'Other',role:'student',class_name:'8B'},{email:'t@els-egypt.info',name:'Teacher',role:'teacher',classes:['8A']},{email:'c@els-egypt.info',name:'Council',role:'council',class_name:'8A'},{email:'a@els-egypt.info',name:'Admin',role:'administrator'}])sql.prepare('INSERT INTO comm_people(email,name,role,class_name,classes,active) VALUES(?,?,?,?,?,1)').run(p.email,p.name,p.role,p.class_name||'',JSON.stringify(p.classes||[]));
+sql.prepare("INSERT INTO comm_people(email,name,role,class_name,classes,active) VALUES(?,?,?,'','[]',1)").run("unassigned@els-egypt.info","Unassigned student","student");
 const cookieFor=async x=>'hb_identity='+await core.newSession(x+'@els-egypt.info',1),student=await cookieFor('s'),teacher=await cookieFor('t'),outsider=await cookieFor('o'),council=await cookieFor('c'),admin=await cookieFor('a');
+const unassigned=await cookieFor('unassigned');
+for(const [id,audience] of [['global-test',{is_global:true,target_grades:[],target_classes:[],excluded_classes:[]}],['class-test',{is_global:false,target_grades:[],target_classes:['8A'],excluded_classes:[]}],['excluded-test',{is_global:true,target_grades:[],target_classes:[],excluded_classes:['8A']}]] )sql.prepare('INSERT INTO content(id,kind,data) VALUES(?,?,?)').run(id,'announcement',JSON.stringify({id,kind:'announcement',title:id,description:'School update',stage:'Published',owner:'a@els-egypt.info',audience}));
+const unassignedWorkspace=(await call(workspace,null,unassigned)).data;assert.ok(unassignedWorkspace.items.some(i=>i.id==='global-test'));assert.equal(unassignedWorkspace.items.some(i=>['class-test','excluded-test'].includes(i.id)),false);assert.equal(unassignedWorkspace.canManage,false);const assignedWorkspace=(await call(workspace,null,student)).data;assert.ok(assignedWorkspace.items.some(i=>i.id==='class-test'));assert.equal(assignedWorkspace.items.some(i=>i.id==='excluded-test'),false);
+sql.exec("DELETE FROM content WHERE id IN ('global-test','class-test','excluded-test')");
+
 const post={action:'publish',kind:'announcement',title:'Class update',description:'Bring your notebook',classes:['8A'],grades:[],global:false,stage:'Published'};
 assert.equal((await call(workspace,post,student)).status,400);
 assert.equal((await call(workspace,{...post,classes:['8B']},teacher)).status,400);
@@ -25,6 +31,7 @@ assert.equal((await call(workspace,{...post,global:true},teacher)).status,400);
 assert.equal((await call(workspace,post,teacher)).status,200);
 const own=(await call(workspace,null,teacher)).data.items[0];assert.equal(own.mine,true);assert.equal(own.owner,undefined);
 assert.equal((await call(workspace,null,outsider)).data.items.length,0);assert.equal((await call(workspace,null,student)).data.items.length,1);
+const restoredClass=await call(board,null,student,'?grade=8&class=8B&student=anon_test');assert.ok(restoredClass.data.items.some(i=>i.id===own.id));assert.equal(restoredClass.data.verifiedClass,'8A');
 const forged=await call(board,null,outsider,'?grade=8&class=8A&student=anon_test');assert.equal(forged.data.items.some(i=>i.id===own.id),false);
 assert.equal((await call(board,null,'','?grade=8&class=8A&student=anon_test')).data.items.some(i=>i.id===own.id),false);
 assert.equal((await call(workspace,{...post,kind:'poll'},teacher)).status,400);
