@@ -1,3 +1,5 @@
+> Superseded on 8 October 2026: the owner requested the original warm orange/coral layout. See [the current visual baseline](../docs/WARM-DESIGN-BASELINE.md). The blue workspace concept below is retained only as history.
+
 # School workspace visual direction
 
 Editable Figma file: https://www.figma.com/design/reo7vMDacUfLmRnZOG1UK8

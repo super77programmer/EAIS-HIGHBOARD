@@ -7,7 +7,7 @@ import "./usability.css";
 import "./core-release.css";
 import "./workspace.css";
 import "./trips.css";
-import "./school-app.css";
+import "./warm-utilities.css";
 import "./motion.css";
 
 export const metadata: Metadata = {
