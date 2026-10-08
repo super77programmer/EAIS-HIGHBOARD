@@ -1,6 +1,6 @@
 # High Board — 100 practical improvements
 
-Updated 8 October 2026. This replaces the earlier broad wishlist. These are small, scoped recommendations, not a claim that 100 new features have been implemented. Each can use the existing app, database, private file storage or browser capabilities; none requires a new paid integration. Existing hosting/storage quotas still apply.
+Updated 8 October 2026. Calendar search and category filtering are now implemented; remaining rows are proposed refinements. This replaces the earlier broad wishlist. These are small, scoped recommendations, not a claim that 100 new features have been implemented. Each can use the existing app, database, private file storage or browser capabilities; none requires a new paid integration. Existing hosting/storage quotas still apply.
 
 Already implemented: role-aware workspaces, class-targeted posts, private teacher timetable, large private media uploads, reversible trip interest, protected collection lists, designated trip contacts and private trip questions/replies. The list below proposes refinements rather than repeating those features as unfinished work.
 
@@ -44,8 +44,8 @@ Effort is intentionally scoped: a field, filter, small form, existing API extens
 
 | # | Improvement | Small implementation scope |
 |---|---|---|
-| 21 | Search event titles | Find a visible event by its name. |
-| 22 | Trip-only calendar filter | Hide unrelated categories when looking for trips. |
+| 21 | Search event titles (implemented) | Find a visible event by its name. |
+| 22 | Trip-only calendar filter (implemented) | Hide unrelated categories when looking for trips. |
 | 23 | Upcoming list view | Offer a simple chronological view for small screens. |
 | 24 | Jump to today | Use an obvious button to return to the current date. |
 | 25 | Remember calendar view | Keep the chosen month or list view on this device. |

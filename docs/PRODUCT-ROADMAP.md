@@ -29,3 +29,6 @@ Implemented reversible interest responses, homepage dismissal, calendar rejoinin
 
 ## Designated trip contacts
 Staff/administrators and a trip’s currently assigned teacher organiser can choose up to four active teachers, staff members or High Board helpers in the collection view. Students select a contact on the trip page. Only that student and selected contact can read the private question and reply. Helpers gain no collection-list or general teacher-chat privileges. See [Trip questions](TRIP-QUESTIONS.md).
+
+## Usability release
+Applied a restrained school-workspace design, grouped desktop navigation, mobile navigation drawer, immediate student home and calendar search/category filtering. Editable Figma concepts cover desktop home/calendar and mobile trip details. See [usability update](USABILITY-UPDATE.md) for implemented work, practical next steps and verification limits.
