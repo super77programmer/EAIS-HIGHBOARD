@@ -1,0 +1,21 @@
+/* Short, consistent feedback for the school's working surfaces. */
+:root{--motion-fast:120ms;--motion-standard:180ms;--motion-enter:240ms;--motion-ease:cubic-bezier(.2,.7,.3,1)}
+@media(prefers-reduced-motion:no-preference){
+ button{transition:background-color var(--motion-fast),border-color var(--motion-fast),color var(--motion-fast),box-shadow var(--motion-fast),transform var(--motion-fast) var(--motion-ease)}
+ button:active:not(:disabled){transform:scale(.985)}
+ input,select,textarea{transition:border-color var(--motion-fast),box-shadow var(--motion-fast)}
+ .page-scene{animation:school-view-enter var(--motion-enter) var(--motion-ease)}
+ .panel,.workspace-card,.trip-question{animation:school-surface-enter var(--motion-enter) var(--motion-ease)}
+ .chat-workspace .panel{animation:none}
+ .toast{animation:school-surface-enter var(--motion-standard) var(--motion-ease)}
+ .inbox-account-menu[open]{animation:school-surface-enter var(--motion-standard) var(--motion-ease)}
+ .announcements summary svg{transition:transform var(--motion-standard) var(--motion-ease)}
+ .announcements details[open] summary svg{transform:rotate(45deg)}
+ .announcements details[open]>p{animation:school-surface-enter var(--motion-standard) var(--motion-ease)}
+ .setup-progress-track span{transition:width var(--motion-enter) var(--motion-ease)}
+}
+@keyframes school-view-enter{from{opacity:.6;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes school-surface-enter{from{opacity:.75}to{opacity:1}}
+.inbox-account-menu a{display:block;padding:10px 12px;font-size:14px;color:#2456b3;text-decoration:none;border-radius:8px}
+.inbox-account-menu a:hover{background:#eef3fb}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

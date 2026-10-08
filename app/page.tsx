@@ -33,7 +33,7 @@ function Modal({ title, children, onClose }: {
     title: string;
     children: React.ReactNode;
     onClose?: () => void;
-}) { const ref = useRef<HTMLDivElement>(null); const {runtime,reduced}=useMotion();useEffect(()=>{if(!runtime||reduced||!ref.current)return;const ctx=runtime.gsap.context(()=>runtime.gsap.fromTo(ref.current,{y:32,scale:.97,autoAlpha:0},{y:0,scale:1,autoAlpha:1,duration:.5,ease:'back.out(1.7)'}));return()=>ctx.revert()},[runtime,reduced]); const closeRef = useRef(onClose); closeRef.current = onClose; useEffect(() => { const prior = document.activeElement as HTMLElement; const overflow = document.body.style.overflow; document.body.style.overflow = 'hidden'; ref.current?.focus(); const key = (e: KeyboardEvent) => { if (e.key === 'Escape' && closeRef.current)
+}) { const ref = useRef<HTMLDivElement>(null); const {runtime,reduced}=useMotion();useEffect(()=>{if(!runtime||reduced||!ref.current)return;const ctx=runtime.gsap.context(()=>runtime.gsap.fromTo(ref.current,{y:12,scale:.99,autoAlpha:0},{y:0,scale:1,autoAlpha:1,duration:.24,ease:'power2.out'}));return()=>ctx.revert()},[runtime,reduced]); const closeRef = useRef(onClose); closeRef.current = onClose; useEffect(() => { const prior = document.activeElement as HTMLElement; const overflow = document.body.style.overflow; document.body.style.overflow = 'hidden'; ref.current?.focus(); const key = (e: KeyboardEvent) => { if (e.key === 'Escape' && closeRef.current)
     closeRef.current(); if (e.key === 'Tab') {
     const els = ref.current?.querySelectorAll<HTMLElement>('button,input,select,textarea,a[href],[tabindex="0"]');
     if (!els?.length)

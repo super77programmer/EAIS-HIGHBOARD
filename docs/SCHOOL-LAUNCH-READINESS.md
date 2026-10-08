@@ -50,3 +50,6 @@ Required operational decisions still outstanding:
 - New class-scoped workspace posts require authenticated audience membership; changing the local browsing profile cannot grant access. Global posts must be reviewed for personal data.
 - Media uploads use 8 MiB parts into private R2, with participant checks on each part and download, a 500 MiB media ceiling, bounded part sizes, three active sessions and a 2 GiB daily reserved allowance. Client retries failed parts up to three times; resuming after closing/reloading the browser is not implemented. Small documents retain structural checks and a 20 MiB ceiling. This is not antivirus scanning.
 - Terms and cookie-information routes are published for the restricted pilot. No legal certification is claimed.
+
+## Authentication follow-up
+See [authentication and motion](AUTHENTICATION-AND-MOTION.md) for implemented replay protection, school account binding, session cleanup and rate-limit checks. Live Google OAuth configuration and Workspace two-step verification enforcement require the school account administrator; the app does not assert that those settings are already complete.

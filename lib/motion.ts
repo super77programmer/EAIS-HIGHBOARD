@@ -12,12 +12,11 @@ function script(src: string): Promise<void> {
     document.head.appendChild(tag);
   });
 }
-async function withFallback(cdn: string, local: string) { try { await script(local); } catch { await script(cdn); } }
 export function loadMotion(): Promise<MotionRuntime | null> {
   if (typeof window === 'undefined') return Promise.resolve(null);
   if (!loading) loading = (async () => {
-    await Promise.all([window.gsap ? Promise.resolve() : withFallback('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js', '/vendor/gsap.min.js'),
-    window.ScrollTrigger ? Promise.resolve() : withFallback('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js', '/vendor/ScrollTrigger.min.js')]);
+    await Promise.all([window.gsap ? Promise.resolve() : script('/vendor/gsap.min.js'),
+    window.ScrollTrigger ? Promise.resolve() : script('/vendor/ScrollTrigger.min.js')]);
     if (!window.gsap || !window.ScrollTrigger) return null;
     window.gsap.registerPlugin(window.ScrollTrigger);
     window.ScrollTrigger.config({ ignoreMobileResize: true });
@@ -30,8 +29,7 @@ export function useMotion() {
   const [reduced, setReduced] = useState(true);
   useEffect(() => {
     let active = true; const media = matchMedia('(prefers-reduced-motion: reduce)');
-    const change = () => setReduced(media.matches); change(); media.addEventListener('change', change);
-    loadMotion().then(value => { if (active) setRuntime(value); });
+    const change = () => { setReduced(media.matches); if (!media.matches) loadMotion().then(value => { if (active) setRuntime(value); }); }; change(); media.addEventListener('change', change);
     return () => { active = false; media.removeEventListener('change', change); };
   }, []);
   return { runtime, reduced };
