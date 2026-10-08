@@ -14,3 +14,7 @@ export const commReports = sqliteTable('comm_reports',{id:text('id').primaryKey(
 export const recovery = sqliteTable('comm_recovery',{token:text('token').primaryKey(),owner:text('owner').notNull(),created:integer('created').notNull()});
 export const audit = sqliteTable('comm_audit',{id:text('id').primaryKey(),actor:text('actor').notNull(),action:text('action').notNull(),target:text('target').notNull(),created:integer('created').notNull()});
 export const notes = sqliteTable('comm_notes',{id:text('id').primaryKey(),thread:text('thread').notNull(),author:text('author').notNull(),body:text('body').notNull(),created:integer('created').notNull()});
+
+export const workspaceSchedule = sqliteTable('workspace_schedule',{id:text('id').primaryKey(),actor:text('actor').notNull(),data:text('data').notNull()});
+export const mediaUploads = sqliteTable('media_uploads',{id:text('id').primaryKey(),actor:text('actor').notNull(),thread:text('thread').notNull(),objectKey:text('object_key').notNull(),uploadId:text('upload_id').notNull(),name:text('name').notNull(),mime:text('mime').notNull(),size:integer('size').notNull(),created:integer('created').notNull()});
+export const mediaParts = sqliteTable('media_parts',{upload:text('upload').notNull(),part:integer('part').notNull(),etag:text('etag').notNull()},t=>[primaryKey({columns:[t.upload,t.part]})]);

@@ -1,5 +1,5 @@
 export type Audience={is_global:boolean;target_grades:number[];target_classes:string[];excluded_classes:string[]};
-export type Item={id:string;kind:string;title:string;category?:string;description?:string;start?:string;end?:string;cost?:number;deadline?:string;transport?:string;food?:string;notes?:string;room?:string;duration?:number;audience:Audience;options?:string[];multi?:boolean;status?:string;sample?:boolean;stage?:string;menu_date?:string;verified?:boolean};
+export type Item={id:string;kind:string;title:string;category?:string;description?:string;start?:string;end?:string;cost?:number;deadline?:string;transport?:string;food?:string;notes?:string;room?:string;duration?:number;audience:Audience;options?:string[];multi?:boolean;status?:string;sample?:boolean;stage?:string;owner?:string;author?:string;menu_date?:string;verified?:boolean};
 export const globalAudience:Audience={is_global:true,target_grades:[],target_classes:[],excluded_classes:[]};
 export function visible(a:Audience,g:number,c:string){return (a.is_global||a.target_grades.includes(g)||a.target_classes.includes(c))&&!a.excluded_classes.includes(c)}
 export const seed:Item[]=[

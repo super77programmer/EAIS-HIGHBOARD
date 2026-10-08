@@ -26,3 +26,27 @@ This is an implementation review, not legal certification. The preview remains o
 10. Confirm a school-approved domain and hosting budget. A custom domain does not establish authorisation.
 
 No configuration guarantees that a school or hosting provider cannot remove or block a site. Approval, policy compliance and operational controls must all be maintained.
+
+## Additional privacy and legal review
+Egypt Law 151/2020 treats children's data as sensitive (Article 12) and regulates overseas storage and transfers (Articles 14–16). Executive Regulations issued by Decision 816/2025 add consent, licensing and recordkeeping requirements. A policy page is not a licence or consent record. Obtain a school operator decision and Egyptian professional review of applicable permits, guardian consent, DPO duties and cross-border hosting before real student rollout. Do not assume a US or EU rule automatically applies solely because the app uses an overseas provider.
+
+Sources reviewed on 8 October 2026:
+- Law text hosted by ILO NATLEX: https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/111246/EGY111246%20Eng.pdf
+- Executive regulation translation: https://shehatalaw.com/wp-content/uploads/2026/01/Shehata-Partners-Publications-Data-Protection-Executive-Regulations-English.pdf (unofficial translation; verify the controlling Arabic text with the school adviser).
+- Vercel client upload architecture: https://vercel.com/docs/vercel-blob/client-upload
+- Vercel request limits: https://vercel.com/docs/functions/limitations
+
+Required operational decisions still outstanding:
+- Operator's legal name, actual privacy contact, consent collection method and evidence; branding/media authorisation.
+- Approved retention for chat, files, schedules, reports and audit records. Existing maintenance only cleans completed suggestions and abandoned files; it is not a full retention or data-rights workflow.
+- Data access/correction/deletion request handling with verified identity and appeal/escalation responsibilities.
+- Provider contracts, data regions, transfer permission and breach response duties/deadlines.
+- Restore-tested backups, malware scanning service and independent permission/load testing with school accounts.
+- Measured storage/download budget. 100 videos of 500 MB use about 50 GB; 100 pupils downloading one 80 MB video use about 8 GB transfer. A per-file ceiling is not a promise of unlimited free hosting.
+
+## This implementation
+- Workspace uses server-assigned roles; schedules are private per teacher. Session times are entered as Cairo wall-clock times. Weekly recurring timetable, current/next session and explicit breaks are supported.
+- Teacher publishing is limited server-side to assigned classes; council has student access plus grades/classes/all-school audiences and staff-approval stages. Roster and security settings stay administrator-only.
+- New class-scoped workspace posts require authenticated audience membership; changing the local browsing profile cannot grant access. Global posts must be reviewed for personal data.
+- Media uploads use 8 MiB parts into private R2, with participant checks on each part and download, a 500 MiB media ceiling, bounded part sizes, three active sessions and a 2 GiB daily reserved allowance. Client retries failed parts up to three times; resuming after closing/reloading the browser is not implemented. Small documents retain structural checks and a 20 MiB ceiling. This is not antivirus scanning.
+- Terms and cookie-information routes are published for the restricted pilot. No legal certification is claimed.
