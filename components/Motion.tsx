@@ -1,6 +1,6 @@
 'use client';
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
-import { CalendarDays, MessageSquare, Plus, ChevronDown, Sparkles, Star, Shield, Check, Users } from 'lucide-react';
+import { Star, Shield, Check, Users } from 'lucide-react';
 import { useMotion } from '@/lib/motion';
 import { logoPaths } from '@/lib/logo-paths';
 export function LogoHero({onEnter}:{onEnter:()=>void}) {
@@ -14,7 +14,7 @@ export function LogoHero({onEnter}:{onEnter:()=>void}) {
     const media=matchMedia('(prefers-reduced-motion: reduce)');
     const change=()=>{if(media.matches)finish()};change();media.addEventListener('change',change);
     const timeout=setTimeout(finish,5000);
-    const key=(event:KeyboardEvent)=>{if(event.key==='Escape')finish();if(event.key==='Tab'){event.preventDefault();root.current?.focus()}};
+    const key=(event:KeyboardEvent)=>{if(event.key==='Escape')finish();if(event.key==='Tab'){event.preventDefault();root.current?.querySelector<HTMLButtonElement>('.intro-skip')?.focus()}};
     document.addEventListener('keydown',key);
     return()=>{clearTimeout(timeout);media.removeEventListener('change',change);document.removeEventListener('keydown',key);document.body.style.overflow=previous};
   },[finish]);
@@ -37,27 +37,8 @@ export function LogoHero({onEnter}:{onEnter:()=>void}) {
     },root);
     return()=>ctx.revert();
   },[runtime,finish]);
-  return <section id="hero" className="logo-intro" ref={root} tabIndex={-1} role="dialog" aria-modal="true" aria-label="Welcome to EAIS High Board"><div className="intro-content"><p className="intro-kicker">EAIS · NEW CAIRO</p><svg className="intro-logo" viewBox="-18 -15 194 109" role="img" aria-label="EAIS school logo"><defs><linearGradient id="intro-gradient" x1="0" y1="0" x2="1" y2="1"><stop stopColor="#ff5e7e"/><stop offset="1" stopColor="#ffad57"/></linearGradient></defs>{logoPaths.map((d,i)=><path key={i} className="intro-logo-path" d={d} fill="url(#intro-gradient)" stroke="#ff8d92" strokeWidth=".8"/>)}</svg><h1 className="intro-title"><span>YOUR SCHOOL.</span><span>YOUR HIGH BOARD.</span></h1><p className="intro-school">Egyptian American International School</p><div className="intro-progress" aria-hidden="true"><span/></div></div></section>;
+  return <section id="hero" className="logo-intro" ref={root} tabIndex={-1} role="dialog" aria-modal="true" aria-label="Welcome to EAIS High Board"><button type="button" className="intro-skip" onClick={finish}>Skip introduction</button><div className="intro-content"><p className="intro-kicker">EAIS · NEW CAIRO</p><svg className="intro-logo" viewBox="-18 -15 194 109" role="img" aria-label="EAIS school logo"><defs><linearGradient id="intro-gradient" x1="0" y1="0" x2="1" y2="1"><stop stopColor="#ff5e7e"/><stop offset="1" stopColor="#ffad57"/></linearGradient></defs>{logoPaths.map((d,i)=><path key={i} className="intro-logo-path" d={d} fill="url(#intro-gradient)" stroke="#ff8d92" strokeWidth=".8"/>)}</svg><h1 className="intro-title"><span>YOUR SCHOOL.</span><span>YOUR HIGH BOARD.</span></h1><p className="intro-school">Egyptian American International School</p><div className="intro-progress" aria-hidden="true"><span/></div></div></section>;
 }
-export function WarmSchoolHero({onCalendar,onVoice,onIdea}:{onCalendar:()=>void;onVoice:()=>void;onIdea:()=>void}) {
-  const root=useRef<HTMLElement>(null);const {runtime,reduced}=useMotion();
-  // Restore the original warm hero in normal document flow.
-  useLayoutEffect(()=>{if(!runtime||!root.current||reduced)return;const {gsap,ScrollTrigger}=runtime;
-    const ctx=gsap.context(()=>{
-      const paths=gsap.utils.toArray('.logo-draw') as SVGPathElement[];
-      paths.forEach((path,i)=>{const length=path.getTotalLength();gsap.set(path,{strokeDasharray:length,strokeDashoffset:length,fillOpacity:0,x:(i-1)*13,y:i===1?12:-6,rotation:(i-1)*4,transformOrigin:'50% 50%'});});
-      const timeline=gsap.timeline();
-      timeline.to(paths,{strokeDashoffset:0,x:0,y:0,rotation:0,duration:1,stagger:.12,ease:'none'},0)
-        .to(paths,{fillOpacity:1,strokeWidth:.25,duration:.4,stagger:.05},.7)
-        .fromTo('.emblem-card',{scale:1},{scale:.94,y:-8,duration:1,ease:'none'},0)
-        .fromTo('.emblem-glow',{opacity:.14,scale:.7},{opacity:.85,scale:1.2,duration:1},.1)
-        .fromTo('.assembly-label',{opacity:.45},{opacity:1,duration:.45},.65);
-      gsap.from('.hero-title > span',{y:25,opacity:0,stagger:.12,duration:.8,ease:'power3.out'});
-    },root);return()=>ctx.revert();
-  },[runtime,reduced]);
-  return <section id="hero" className="logo-hero" ref={root} aria-label="Welcome to EAIS"><div className="hero-inner"><div className="hero-eyebrow"><span/>NEW CAIRO · STUDENT LIFE</div><h1 className="hero-title"><span>WELCOME TO</span><span>EAIS<span className="coral-dot">.</span></span></h1><p className="hero-school">Egyptian American International School</p><div className="emblem-stage"><div className="emblem-glow" aria-hidden/><span className="hero-orbit orbit-one" aria-hidden/><span className="hero-orbit orbit-two" aria-hidden/><div className="emblem-card"><div className="emblem-card-top"><Sparkles size={16}/><span>ONE SCHOOL. EVERY VOICE.</span><span className="emblem-year">26 / 27</span></div><svg className="assembly-svg" viewBox="-18 -15 194 109" role="img" aria-label="EAIS school logo"><defs><linearGradient id="emblem-gradient" x1="0" y1="0" x2="1" y2="1"><stop stopColor="#FF5E7E"/><stop offset="1" stopColor="#FF9F43"/></linearGradient></defs>{logoPaths.map((d,i)=><path key={i} className="logo-ghost" d={d}/>)}{logoPaths.map((d,i)=><path key={i} className="logo-draw" d={d} fill="url(#emblem-gradient)" stroke="#F45C76" strokeWidth=".7"/>)}</svg><div className="assembly-label"><span className="emblem-rule"/>MAKE YOUR MARK<span className="emblem-rule"/></div></div><span className="floating-tag tag-voice"><MessageSquare size={14}/> Your voice belongs here</span><span className="floating-tag tag-life"><Sparkles size={14}/> A little more school spirit</span></div><div className="hero-shortcuts"><button onClick={onCalendar}><CalendarDays size={17}/>What’s happening</button><button onClick={onVoice}><MessageSquare size={17}/>Have your say</button><button onClick={onIdea}><Plus size={17}/>Share an idea</button></div><button className="board-skip" onClick={()=>document.getElementById('student-board')?.scrollIntoView({behavior:reduced?'instant':'smooth',block:'start'})}>Go to my board <ChevronDown size={16}/></button><span className="scroll-note">{reduced?'Your school. Your community.':'Scroll to bring it all together'}</span></div></section>;
-}
-
 export function MotionLayer({view,revision}:{view:string;revision:string}) {
   const {runtime,reduced}=useMotion();const revealed=useRef(new WeakSet<HTMLElement>());
   useEffect(()=>{if(!runtime||reduced)return;const {gsap}=runtime;const ctx=gsap.context(()=>{document.querySelectorAll<HTMLElement>('.feed-section').forEach(section=>{const cards=Array.from(section.querySelectorAll<HTMLElement>('.feed-card')).filter(card=>!card.parentElement?.closest('.feed-card')&&!revealed.current.has(card));cards.forEach((card,i)=>{revealed.current.add(card);gsap.from(card,{y:10,opacity:0,duration:.24,delay:Math.min(i,2)*.035,ease:'power2.out',scrollTrigger:{trigger:card,start:'top 95%',once:true}})})})});return()=>ctx.revert()},[runtime,reduced,view,revision]);

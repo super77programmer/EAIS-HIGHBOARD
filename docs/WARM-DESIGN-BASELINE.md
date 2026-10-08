@@ -1,11 +1,13 @@
-# Restored warm visual baseline
+# Latest functionality with the protected warm theme
 
-8 October 2026: the owner requested restoration of the original warm orange/coral design. The blue workspace redesign is superseded.
+Clarified by the owner on 8 October 2026: keep the existing warm orange/coral theme unless the owner explicitly requests a theme change. Restore the latest functionality and presentation from immediately before the Google Classroom-style redesign, rather than returning the entire interface to its earliest version.
 
-The restored presentation comes from the 5 October source (`bf546d8`): the EAIS logo welcome section, original header and navigation, class greeting, glance cards, week strip, photo trip spotlight, event filters, rounded cards and sidebar. The original `app/light.css` remains the visual foundation. `app/school-app.css` is no longer imported.
+The corrected baseline is `b9dc33a`: the modern daily homepage, today's/next event, four shortcuts, reminders, upcoming events, school updates, short GSAP entrance sequence and original navigation. The older full-page logo landing section, spotlight dashboard, glance cards and week strip are superseded. `app/light.css` remains the visual foundation. `app/school-app.css` stays unimported.
 
-Newer functional controls keep their behaviour and use small matching styles in `app/warm-utilities.css`. School roles, private chats, Google authentication hardening, large media uploads, calendar discovery, reversible trip participation and assigned trip contacts remain intact. Declined trips remain excluded from the home recommendations and week strip; the calendar still allows rejoining.
+The entrance runs once on initial app entry and does not replay when changing pages. It completes automatically, can be skipped with its button or Escape, honours reduced motion and has a five-second fallback. It does not pin the home page during scrolling.
 
-Future interface work should preserve this visual identity and layout. Do not replace it with the blue/grey workspace design. The earlier Figma workspace concept and usability redesign notes are historical, not the current design baseline.
+Later functionality is retained: server-assigned roles, teacher workspaces/timetables, private messages, Google sign-in hardening, large private uploads, searchable/filterable calendar, reversible trip participation, protected collection lists and assigned trip contacts/private replies. Front-end restoration does not downgrade backend security.
 
-Validation: TypeScript and the interaction suite verify the restored hero, spotlight, navigation, calendar controls, trip responses/questions and messaging. Production build also required before publication. No claim of browser screenshot comparison is made.
+Animation feedback remains short and consistent, using locally hosted GSAP assets and reduced-motion handling. New controls use small matching styles in `app/warm-utilities.css`.
+
+The earlier Figma blue workspace concept and the 5 October layout restoration are historical, not future design guidance. See the root `AGENTS.md` for the owner's theme constraint.
