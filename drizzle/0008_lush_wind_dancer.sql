@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `trip_contact_actor` ON `trip_contacts` (`trip`,`actor`);

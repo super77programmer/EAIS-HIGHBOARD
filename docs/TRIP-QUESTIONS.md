@@ -1,0 +1,11 @@
+# Designated trip questions
+
+Staff and verified administrators assign up to four active teachers, staff members or High Board helpers through Workspace → Trip interest & collection → select trip → Assign trip question contacts. A teacher may assign contacts only for their own trip when its complete audience is still within their currently assigned classes. Contacts are selected from the existing private roster; there is no new account type or integration.
+
+Students open a real published trip from the homepage or calendar, choose the displayed contact and send a question of up to 1,000 characters. They do not need to register interest first. New questions close at departure or cancellation. Replies appear on the same trip page. The selected recipient reads and answers in Workspace → Trip questions for you. Lists refresh every 20 seconds while the page is visible, with a manual refresh in the inbox. This is an in-app inbox, without email/SMS/push delivery.
+
+Only the student and the current selected contact can read the question/reply. Staff who assign contacts do not automatically gain access to the questions. High Board helpers receive only their assigned questions, with the student’s name and class; they gain no trip collection-list or unrelated teacher-chat access. All reads/replies recheck the active roster, trip audience and contact assignment. Removed contacts lose access; their old exchanges are no longer displayed to the student. Reassigning a contact does not transfer old questions to a different person. Archived trips are unavailable. Cancelled trips accept no new questions, but existing eligible exchanges remain readable and the contact can answer cancellation questions.
+
+Student view: most recent 50 questions per trip. Recipient inbox: most recent 200 questions. No file attachments or public comments in this small feature; existing authorised teacher chat continues to handle files. Questions/replies use server-side text validation, origin checks, submission limits and private database records. The school’s retention/privacy-request procedures must include these records.
+
+This does not process payment, book seats or replace guardian permission. No additional paid provider or subscription is introduced; existing hosting/database quotas still apply.

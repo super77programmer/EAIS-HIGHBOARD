@@ -1,178 +1,161 @@
-# High Board — 100 improvement recommendations
+# High Board — 100 practical improvements
 
-Prepared 8 October 2026. These are proposals and refinements, not a claim that all 100 features have been implemented. The current update separately implements reversible trip interest and a protected staff collection view.
+Updated 8 October 2026. This replaces the earlier broad wishlist. These are small, scoped recommendations, not a claim that 100 new features have been implemented. Each can use the existing app, database, private file storage or browser capabilities; none requires a new paid integration. Existing hosting/storage quotas still apply.
 
-Priorities: **P0** = address before broad real-student rollout; **P1** = next practical product work; **P2** = validate demand and budget first. Priority is an implementation judgment, not a legal determination.
+Already implemented: role-aware workspaces, class-targeted posts, private teacher timetable, large private media uploads, reversible trip interest, protected collection lists, designated trip contacts and private trip questions/replies. The list below proposes refinements rather than repeating those features as unfinished work.
 
-The app was reviewed alongside 15 Exa search results across three research workstreams (access control, accessibility, and browser performance/storage). Six selected primary-source pages were read. Recommendations below combine those baseline practices with the school’s actual workflows; they are not a claim that research proves all 100 features are necessary.
+Start with: manual collection ticks, interest deadline, meeting-point/checklist fields, draft editing and timetable editing. Implement a small batch at a time and verify it with the school.
 
-Build order: payment/permission clarity and collection operations; launch privacy/security controls; notifications and timetable imports; then larger integrations and optional features.
+Excluded from this plan: Visa/card gateways, online wallets, paid SMS, paid notification or analytics providers, AI assistants, GPS tracking, biometric attendance, automated guardian accounts, live video calls, multi-system timetable sync, adaptive video streaming and complex capacity/waitlist automation. Payment and guardian permission remain school-managed.
 
-## Trips, registration and collection
+Effort is intentionally scoped: a field, filter, small form, existing API extension or UI refinement. This is not a delivery-time guarantee. Core access checks, security, backups and school privacy obligations remain necessary operational work; see [launch readiness](SCHOOL-LAUNCH-READINESS.md).
 
-| # | Priority | Recommendation | Intended outcome |
-|---|---|---|---|
-| 1 | P1 | Payment confirmation | Let authorised collectors mark payment received, with collector identity and timestamp. |
-| 2 | P1 | Separate trip statuses | Show Interested, Payment pending, Permission pending and Confirmed as separate states. |
-| 3 | P1 | Registration closing dates | Give staff a configurable interest deadline separate from the payment deadline. |
-| 4 | P1 | Trip capacity | Set the number of available places and enforce it atomically when confirming students. |
-| 5 | P1 | Waiting lists | Keep an ordered waiting list and offer released places without double booking. |
-| 6 | P1 | Guardian permission workflow | Connect trip-specific permission to the school-approved consent process rather than treating interest as permission. |
-| 7 | P1 | Collection rounds | Assign a collector and collection time to each class so staff do not visit twice. |
-| 8 | P1 | Restricted collection export | Provide a time-stamped staff-only print or CSV list, with access checks and spreadsheet-formula protection. |
-| 9 | P1 | Trip-change notices | Tell interested students when the price, deadline, meeting point or cancellation changes. |
-| 10 | P2 | Departure and return check-in | Give designated trip staff an attendance checklist for boarding and return; require a safeguarding review first. |
+## Trips and manual collection
 
-## Student home and discovery
+| # | Improvement | Small implementation scope |
+|---|---|---|
+| 1 | Manual payment tick box | Let authorised collectors mark cash received; keep collector and time. |
+| 2 | Paper permission tick box | Record that staff received the school’s existing permission form. |
+| 3 | Interest closing date | Let organisers close responses before departure. |
+| 4 | Meeting point field | Show the gate, room or assembly location clearly. |
+| 5 | What to bring checklist | Use a short reusable list of clothing, water and supplies. |
+| 6 | Included and extra costs | Separate the trip fee from optional spending money. |
+| 7 | Collection time per class | Add a simple note about when staff will visit. |
+| 8 | Print collection view | Print the existing restricted list by class; no payment gateway. |
+| 9 | Trip contact response hours | Show when assigned question contacts usually reply. |
+| 10 | Common trip answers | Let organisers publish generic answers without student names. |
 
-| # | Priority | Recommendation | Intended outcome |
-|---|---|---|---|
-| 11 | P1 | Unified task inbox | Bring pending trip actions, unread replies and relevant deadlines into one concise list. |
-| 12 | P1 | My events view | Add a calendar filter showing trips and events the student has chosen to participate in. |
-| 13 | P1 | Calendar search | Search events by title, category, date and location without stepping through each month. |
-| 14 | P1 | Clear announcement targeting | Display the receiving class or grade beside every announcement. |
-| 15 | P1 | Event bookmarks | Let students save an event privately without indicating participation or joining a collection list. |
-| 16 | P1 | Deadline ordering | Prioritise approaching actionable deadlines over distant events and expired reminders. |
-| 17 | P1 | Expired-content handling | Remove expired announcements from the main feed while keeping a searchable history. |
-| 18 | P1 | Personal shortcut choices | Let students reorder a small set of homepage shortcuts without changing the school-wide navigation. |
-| 19 | P2 | Useful empty states | Explain whether a list is empty because no content exists, filters hide it or access needs verification. |
-| 20 | P2 | School activity directory | List approved clubs and activities with clear contact and joining information. |
+## Student home
 
-## Teacher work and scheduling
+| # | Improvement | Small implementation scope |
+|---|---|---|
+| 11 | My interested trips | Add a filter for trips the student currently wants to join. |
+| 12 | Saved events | Save an event privately without registering interest. |
+| 13 | Nearest deadline first | Order reminders by the next relevant deadline. |
+| 14 | Unread update badge | Show a small count on the announcements tab. |
+| 15 | Read announcement toggle | Let students mark a routine update as read. |
+| 16 | Short daily summary | Show today’s events, next exam and open actions together. |
+| 17 | Clear audience labels | Display the class or grade beside each update. |
+| 18 | Useful empty messages | Explain why a feed or filtered list is empty. |
+| 19 | School contact card | Show approved office hours and a generic school contact. |
+| 20 | Simple club directory | List approved clubs, meeting times and joining instructions. |
 
-| # | Priority | Recommendation | Intended outcome |
-|---|---|---|---|
-| 21 | P1 | Canonical timetable imports | Import a school-approved timetable instead of requiring each teacher to type every session. |
-| 22 | P1 | Substitution handling | Display temporary cover assignments with start/end dates and matching access changes. |
-| 23 | P1 | Holiday-aware sessions | Skip recurring lessons on official closures and show the reason. |
-| 24 | P1 | Timetable editing | Allow teachers to edit a saved session directly instead of deleting and recreating it. |
-| 25 | P1 | Schedule exception dates | Support one-off room changes or rescheduled sessions without altering the entire weekly pattern. |
-| 26 | P1 | Teacher publication templates | Provide reusable templates for trips, class parties and routine reminders. |
-| 27 | P1 | Teacher message availability | Show school-approved response hours so students know when to expect a reply. |
-| 28 | P1 | Class resource shelves | Organise approved documents by class and topic rather than leaving all resources inside chat history. |
-| 29 | P2 | School calendar subscriptions | Offer revocable per-user calendar feeds for timetable updates; never expose a public student schedule. |
-| 30 | P2 | Session reminders | Offer teacher-controlled reminders before lessons and breaks, with quiet hours. |
+## Calendar and events
 
-## High Board and publication
+| # | Improvement | Small implementation scope |
+|---|---|---|
+| 21 | Search event titles | Find a visible event by its name. |
+| 22 | Trip-only calendar filter | Hide unrelated categories when looking for trips. |
+| 23 | Upcoming list view | Offer a simple chronological view for small screens. |
+| 24 | Jump to today | Use an obvious button to return to the current date. |
+| 25 | Remember calendar view | Keep the chosen month or list view on this device. |
+| 26 | Duration display | Show how long a session or event lasts. |
+| 27 | Cancellation label | Make cancelled events unmistakable in every view. |
+| 28 | Event details copy button | Copy public event instructions without attendee names. |
+| 29 | Add event to personal calendar | Download a single .ics event; no ongoing external sync. |
+| 30 | Clear Cairo time label | Label times consistently instead of relying on device timezone. |
 
-| # | Priority | Recommendation | Intended outcome |
-|---|---|---|---|
-| 31 | P1 | Editable publication drafts | Add direct draft editing for workspace events and polls before submitting for approval. |
-| 32 | P1 | Approval feedback | Let staff return a draft with a specific explanation and requested revisions. |
-| 33 | P1 | Version history | Record content revisions and show who changed the publication and when. |
-| 34 | P1 | Scheduled publishing | Release an approved announcement at a chosen time and expire it automatically. |
-| 35 | P1 | Grade representative assignments | Define which grades each council member represents instead of relying on an undifferentiated council role. |
-| 36 | P1 | Poll turnout reporting | Show participation totals against eligible audiences without publishing individual voter choices. |
-| 37 | P1 | Poll result release controls | Let staff decide whether results are visible during voting or only after closure. |
-| 38 | P1 | Critical announcement acknowledgement | Track receipt of essential instructions privately without turning every announcement into a compulsory action. |
-| 39 | P2 | Council handover workflow | Transfer approved responsibilities between school years and revoke former members promptly. |
-| 40 | P2 | School-year content archives | Separate past-year events and polls from current operations while applying retention rules. |
+## Teacher workspace
 
-## Messaging and moderation
+| # | Improvement | Small implementation scope |
+|---|---|---|
+| 31 | Edit saved session | Change a timetable entry without deleting and retyping it. |
+| 32 | Duplicate session | Copy a lesson to another weekday. |
+| 33 | Copy weekly timetable | Reuse a teacher’s own weekly entries. |
+| 34 | Room shortcuts | Offer the teacher’s recently used room names. |
+| 35 | Subject labels | Add a short subject tag to lessons. |
+| 36 | Tomorrow preview | Show the next school day with one click. |
+| 37 | Break totals | Show total break time for the selected day. |
+| 38 | Print personal timetable | Print only the signed-in teacher’s timetable. |
+| 39 | Routine update templates | Prefill reminders, class parties and trip instructions. |
+| 40 | Teacher response hours | Add an optional school-approved availability note. |
 
-| # | Priority | Recommendation | Intended outcome |
-|---|---|---|---|
-| 41 | P1 | Server push for new replies | Replace frequent polling with an authenticated real-time channel when measured traffic justifies it. |
-| 42 | P1 | Notification preferences | Let users choose which classes, topics and message types can notify them. |
-| 43 | P1 | Notification quiet hours | Suppress routine alerts outside chosen hours while defining any exceptional school alerts clearly. |
-| 44 | P1 | Delivery state clarity | Distinguish sending, server accepted, failed and read so retries do not create confusion. |
-| 45 | P1 | Cross-conversation search | Search only authorised conversations, with message snippets and direct navigation to the result. |
-| 46 | P1 | Conversation organisation | Add private archive and pin controls without deleting the other participant’s messages. |
-| 47 | P1 | Report case tracking | Give a report a private case number and status so the reporter can see that it was received. |
-| 48 | P0 | Safeguarding escalation ownership | Assign responsible staff and response procedures for threatening or harmful messages. |
-| 49 | P1 | Moderation decision review | Record reasons for removals and provide an appropriate school appeal channel. |
-| 50 | P2 | Announcement-linked questions | Allow questions about an announcement to reach the assigned teacher privately rather than a public comment thread. |
+## High Board and publishing
 
-## Mobile usability and accessibility
+| # | Improvement | Small implementation scope |
+|---|---|---|
+| 41 | Edit draft | Change an unpublished announcement, event or poll. |
+| 42 | Preview before posting | Show the title, audience and dates before submission. |
+| 43 | Duplicate own draft | Reuse an organiser’s previous post as a draft. |
+| 44 | Return draft with feedback | Let staff explain what needs changing before approval. |
+| 45 | Approval status labels | Show Draft, Pending approval and Published plainly. |
+| 46 | Pinned important update | Allow staff to pin a small number of urgent notices. |
+| 47 | Announcement expiry date | Hide a notice from the main feed after its useful date. |
+| 48 | Poll closing countdown | Show the remaining voting time in plain language. |
+| 49 | Aggregate poll turnout | Show totals without individual student choices. |
+| 50 | Owner filter | Let organisers quickly find their own posts. |
 
-| # | Priority | Recommendation | Intended outcome |
-|---|---|---|---|
-| 51 | P1 | Arabic and English interface | Translate navigation, errors and policies consistently and support right-to-left layout. |
-| 52 | P1 | Keyboard-complete workflows | Verify trip responses, filters, dialogs and staff tables without a mouse. |
-| 53 | P1 | Visible focus across layouts | Keep focused controls visible above sticky bars and restore focus after dialogs close. |
-| 54 | P1 | Larger touch controls | Review frequently used controls for comfortable touch targets and adequate spacing. |
-| 55 | P1 | Screen-reader response feedback | Announce saved responses, loading states and errors without moving focus unnecessarily. |
-| 56 | P1 | Status text alongside colour | Use readable labels for pending, confirmed, cancelled and failed states, not colour alone. |
-| 57 | P1 | Zoom and text scaling review | Ensure pages remain usable at 200 percent text scaling and narrow mobile widths. |
-| 58 | P1 | Captioned video resources | Support captions or transcripts for teacher videos, with clear accessibility expectations. |
-| 59 | P2 | Reduced-motion consistency | Make every animation respect reduced-motion preferences and avoid delaying core tasks. |
-| 60 | P2 | Shared design tokens | Document spacing, typography, colours and controls in a reusable design system; Figma can mirror the implementation. |
+## Private messaging and suggestions
 
-## Privacy and responsible school operation
+| # | Improvement | Small implementation scope |
+|---|---|---|
+| 51 | Search current conversation | Find text in the loaded authorised conversation. |
+| 52 | Unread chats filter | Make unanswered conversations easier to find. |
+| 53 | Pin own conversation | Keep a frequent contact near the top. |
+| 54 | Remember draft | Keep unsent text for the current conversation during navigation. |
+| 55 | Clear send failure message | Explain when a message was not accepted and offer retry. |
+| 56 | Long-message line breaks | Preserve paragraphs and prevent overflowing words. |
+| 57 | Attachment size before send | Show the selected file size prominently. |
+| 58 | Staff reply templates | Offer editable answers for recurring routine questions. |
+| 59 | Suggestion category filter | Help moderators sort the existing suggestion categories. |
+| 60 | Suggestion status explanation | Explain what each moderation status means. |
 
-| # | Priority | Recommendation | Intended outcome |
-|---|---|---|---|
-| 61 | P0 | Named responsible operator | Publish the actual operator and privacy contact once approved, replacing the pilot’s generic contact wording. |
-| 62 | P0 | Consent evidence | Store school-approved consent records with scope, policy version and withdrawal handling. |
-| 63 | P0 | Verified privacy requests | Provide authenticated access, correction and deletion requests with staff review and completion records. |
-| 64 | P0 | Complete retention rules | Define and implement retention separately for chat, uploads, trip interest, schedules, reports and logs. |
-| 65 | P0 | Minimal student identifiers | Use the least identifying data needed for collection; consider a school identifier only where names collide. |
-| 66 | P0 | Provider and location register | Document actual storage providers, data regions and the school’s approved transfer arrangements. |
-| 67 | P0 | Policy change history | Keep dated policy versions and communicate meaningful changes before they affect users. |
-| 68 | P0 | Media permission records | Verify permission to publish identifiable student images or voices before any public release. |
-| 69 | P0 | Optional analytics consent controls | If optional tracking is added, implement genuine consent before loading it where required. |
-| 70 | P0 | Account closure workflow | Disable leavers, remove access promptly and handle retained records under the approved schedule. |
+## Uploads and resources
 
-## Access control and security hardening
+| # | Improvement | Small implementation scope |
+|---|---|---|
+| 61 | Visible cancel upload | Stop an unfinished upload using the existing cancellation API. |
+| 62 | Friendly upload progress | Show percentage and current stage in ordinary language. |
+| 63 | File type guidance | List the formats the current server accepts before selection. |
+| 64 | File limit explanation | Show the existing 500 MB media and 20 MB document/image limits. |
+| 65 | Low connection hint | Recommend keeping the page open when an upload is slow. |
+| 66 | Download button labels | Include the document name in the accessible button label. |
+| 67 | Video description field | Let teachers add a short text summary of a video. |
+| 68 | Text alternative for audio | Allow the sender to include a typed summary. |
+| 69 | Retry failed upload | Retry the same selected file without making the user select it again. |
+| 70 | Simple storage totals | Show used file bytes from existing records to administrators. |
 
-| # | Priority | Recommendation | Intended outcome |
-|---|---|---|---|
-| 71 | P0 | Central permission definitions | Consolidate scattered role checks into a documented policy that denies unspecified operations. |
-| 72 | P0 | Class revocation testing | Test every private feature after a student or teacher changes class, including downloads and old links. |
-| 73 | P0 | Administrator multi-factor policy | Use the school identity provider’s MFA and security controls for privileged accounts. |
-| 74 | P0 | Secure bootstrap retirement | Ensure bootstrap PIN access is permanently closed after verified administrators are established. |
-| 75 | P0 | Session visibility and revocation | Let authorised users inspect and revoke their active school sessions. |
-| 76 | P0 | Security header review | Deploy and test suitable content security, framing, referrer and browser-permission policies. |
-| 77 | P0 | Dependency vulnerability checks | Add routine dependency checks and a defined update process for critical findings. |
-| 78 | P0 | Abuse-focused rate limits | Separate limits for sign-in, messages, voting, exports and uploads to protect both usability and resources. |
-| 79 | P0 | Protected operational audit trail | Record privileged changes with restricted access, retention and tamper-detection controls. |
-| 80 | P0 | Secret and repository hygiene | Scan source/history for secrets and review public repository visibility and licensed assets. |
+## Mobile and accessibility
 
-## Files, videos and storage costs
+| # | Improvement | Small implementation scope |
+|---|---|---|
+| 71 | Consistent button labels | Use the same wording for save, cancel and back. |
+| 72 | Comfortable touch spacing | Separate frequently tapped controls on mobile. |
+| 73 | Visible keyboard focus | Keep a clear focus outline on every interactive control. |
+| 74 | Dialog focus return | Return keyboard focus to the button that opened a dialog. |
+| 75 | Form error beside field | Place a clear validation message next to the relevant input. |
+| 76 | Loading feedback | Explain when a list is still loading. |
+| 77 | Screen-reader saved status | Announce successful saves without moving focus. |
+| 78 | Text labels beside colours | Make statuses understandable without colour perception. |
+| 79 | Text zoom review | Check all important views at 200 percent text size. |
+| 80 | Reduced motion polish | Respect device motion preferences on remaining transitions. |
 
-| # | Priority | Recommendation | Intended outcome |
-|---|---|---|---|
-| 81 | P0 | Upload quarantine and scanning | Keep incoming files unavailable until a school-approved malware scan or equivalent review completes. |
-| 82 | P1 | Upload cancellation control | Give users a visible cancel button that removes unfinished multipart data. |
-| 83 | P1 | Resume after reload | Support resumable upload sessions after a browser closes, with identity checks and expiry. |
-| 84 | P1 | Upload queue | Show queued files and limit parallel uploads so slow school connections stay usable. |
-| 85 | P1 | Storage budget dashboard | Show stored bytes, transfer usage and estimated quota pressure to administrators. |
-| 86 | P1 | Atomic quota reservations | Reserve upload allowance transactionally so concurrent requests cannot exceed account or school limits. |
-| 87 | P1 | Automatic abandoned-upload cleanup | Run a scheduled cleanup for expired sessions even if the user never uploads again. |
-| 88 | P1 | Optional video compression | Offer a quality/size choice before upload, keeping the original when required. |
-| 89 | P2 | Private adaptive playback | Serve authorised video in suitable quality levels without publishing original student-media links. |
-| 90 | P2 | Duplicate file handling | Detect duplicate uploads within an authorised scope without revealing another user’s files. |
+## Privacy and account clarity
 
-## Performance, reliability and rollout
+| # | Improvement | Small implementation scope |
+|---|---|---|
+| 81 | Verified class badge | Distinguish the school-assigned class from a browsing preference. |
+| 82 | Role explanation card | Explain the tools available to each account type. |
+| 83 | Shared-device sign-out reminder | Encourage signing out after using a school/shared computer. |
+| 84 | Clear local preferences | Let users remove device preferences through an explicit control. |
+| 85 | Real privacy contact | Replace generic pilot wording with the approved operator contact. |
+| 86 | Policy dates | Show the last update date consistently on policy pages. |
+| 87 | Private question recipient label | Keep the chosen recipient obvious before sending. |
+| 88 | Inactive roster filter | Help administrators find accounts already disabled. |
+| 89 | Class-change confirmation | Show an administrator what access changes before saving a roster edit. |
+| 90 | Permission summary | Document which roles can see each existing private record type. |
 
-| # | Priority | Recommendation | Intended outcome |
-|---|---|---|---|
-| 91 | P1 | Measure actual loading and interaction | Track Core Web Vitals using a school-approved privacy approach before deciding where to optimise. |
-| 92 | P1 | Low-bandwidth testing | Test the entire trip, chat and upload flows on throttled mobile networks and older devices. |
-| 93 | P1 | Account-scoped response caching | Deduplicate reads while ensuring cached content cannot cross account boundaries. |
-| 94 | P1 | Paginated collection lists | Move filtering and pagination server-side as trip and student counts grow. |
-| 95 | P0 | Restore-tested backups | Create a recovery process and prove that database/file backups can restore a working service. |
-| 96 | P0 | Deployment rollback drills | Verify that releases and compatible migrations can recover safely after a faulty update. |
-| 97 | P1 | Error monitoring without private content | Capture technical failure context while excluding message bodies, student lists and credentials. |
-| 98 | P1 | Safe offline shell | Offer installable app navigation and an explicit offline state without caching private rosters on shared devices. |
-| 99 | P1 | Real-user pilot checks | Test with designated student, teacher and staff accounts before expanding to more classes. |
-| 100 | P2 | Feedback and usage review | Review completion rates and recurring support issues to prioritise the next release rather than building all 100 ideas at once. |
+## Reliability and school rollout
 
-## Research basis and limits
-
-Access-control proposals follow OWASP’s recommendation to apply appropriate authorisation independently of sign-in and to validate permissions on requests. Upload recommendations use OWASP’s layered controls; file-header checks alone do not constitute malware scanning.
-
-Accessibility proposals use W3C target-size and status-message guidance. The new trip buttons use a 44-pixel minimum height as a design choice; this is not a claim of complete WCAG conformance.
-
-Performance proposals use browser performance and storage guidance. Offline storage can outlive a session or share origin storage, so a school app needs explicit account separation and safe treatment of private data. These are design inferences for High Board.
-
-Primary sources reviewed:
-
-- [OWASP: Authorization](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
-- [OWASP: File Upload](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html)
-- [W3C: Target Size](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)
-- [W3C: Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html)
-- [web.dev: Web Vitals](https://web.dev/articles/vitals)
-- [web.dev: Offline Data](https://web.dev/learn/pwa/offline-data)
-
-School consent, permissions, account policy, staffing and hosting budgets remain decisions for the responsible school/operator. Avoid adding public class chats, public attendee names, location tracking, face recognition or behavioural rankings as default “engagement” features.
+| # | Improvement | Small implementation scope |
+|---|---|---|
+| 91 | Retry failed list loading | Add a retry button wherever a list can fail to load. |
+| 92 | Offline explanation | Explain that saving requires a connection; do not cache private rosters. |
+| 93 | Prevent repeat submissions | Disable submit while a request is already in progress. |
+| 94 | Preserve form on failure | Keep entered text when saving fails. |
+| 95 | Last refreshed time | Show when a staff collection or question list was updated. |
+| 96 | Sample data labels | Keep demo trips and other examples visibly marked. |
+| 97 | Short role guides | Add student, teacher and High Board help cards. |
+| 98 | School pilot checklist | Try the main tasks with authorised test accounts before expansion. |
+| 99 | Broken link review | Check navigation and policy links after each release. |
+| 100 | Monthly feedback review | Use existing private suggestions to choose a small next batch. |

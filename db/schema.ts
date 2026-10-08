@@ -1,4 +1,4 @@
-import { sqliteTable, text, integer, primaryKey, index } from 'drizzle-orm/sqlite-core';
+import { sqliteTable, text, integer, primaryKey, index, uniqueIndex } from 'drizzle-orm/sqlite-core';
 export const content = sqliteTable('content',{id:text('id').primaryKey(),kind:text('kind').notNull(),data:text('data').notNull()});
 export const responses = sqliteTable('responses',{item:text('item').notNull(),student:text('student').notNull(),value:text('value').notNull(),created:integer('created').notNull() },t=>[primaryKey({columns:[t.item,t.student]})]);
 export const attempts = sqliteTable('attempts',{key:text('key').primaryKey(),count:integer('count').notNull(),until:integer('until').notNull()});
@@ -19,3 +19,6 @@ export const workspaceSchedule = sqliteTable('workspace_schedule',{id:text('id')
 export const mediaUploads = sqliteTable('media_uploads',{id:text('id').primaryKey(),actor:text('actor').notNull(),thread:text('thread').notNull(),objectKey:text('object_key').notNull(),uploadId:text('upload_id').notNull(),name:text('name').notNull(),mime:text('mime').notNull(),size:integer('size').notNull(),created:integer('created').notNull()});
 export const mediaParts = sqliteTable('media_parts',{upload:text('upload').notNull(),part:integer('part').notNull(),etag:text('etag').notNull()},t=>[primaryKey({columns:[t.upload,t.part]})]);
 export const tripInterest = sqliteTable('trip_interest',{trip:text('trip').notNull(),actor:text('actor').notNull(),choice:text('choice').notNull(),created:integer('created').notNull(),updated:integer('updated').notNull()},t=>[primaryKey({columns:[t.trip,t.actor]}),index('trip_interest_actor').on(t.actor)]);
+
+export const tripContacts=sqliteTable('trip_contacts',{id:text('id').primaryKey(),trip:text('trip').notNull(),actor:text('actor').notNull()},t=>[index('trip_contact_trip').on(t.trip),uniqueIndex('trip_contact_actor').on(t.trip,t.actor)]);
+export const tripQuestions=sqliteTable('trip_questions',{id:text('id').primaryKey(),trip:text('trip').notNull(),contact:text('contact').notNull(),student:text('student').notNull(),body:text('body').notNull(),answer:text('answer').notNull().default(''),created:integer('created').notNull(),answered:integer('answered').notNull().default(0)},t=>[index('trip_question_student').on(t.student),index('trip_question_contact').on(t.contact)]);
