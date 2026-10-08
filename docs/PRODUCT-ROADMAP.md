@@ -23,3 +23,6 @@ Next product improvements, proposed rather than implemented:
 Launch order: restricted pilot with test data → permission and realistic upload checks → school/privacy operational approval → limited teacher/class pilot → school-wide rollout with measured quotas and support coverage.
 
 Design: preserve existing approved homepage composition. Use the working workspace's timetable, audience controls, readable cards and clear role labels. No new design plugin is required. Figma can help with a later design-system pass; Canva is not currently available as a callable tool in this session. More plugins do not fix backend security or legal authorisation.
+
+## Trip-interest update
+Implemented reversible interest responses, homepage dismissal, calendar rejoining, verified-class checks and a protected staff collection list. See [Trip interest](TRIP-INTEREST.md) for behavior and limits and [100 recommendations](100-IMPROVEMENTS.md) for the prioritised backlog.
