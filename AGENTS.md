@@ -7,3 +7,5 @@ The desired presentation is the latest daily homepage and short GSAP entrance se
 Add features and animations within this visual identity. Preserve reduced-motion handling, keyboard Escape dismissal without a visible skip button (owner request), a timeout if animation loading fails and no repeat entrance when switching pages. Keep roles and permissions enforced on the server.
 
 Publish authorised updates and sync them to the existing GitHub repository, as requested by the owner.
+
+The owner requested full guided onboarding and removal of the standalone Workspace navigation page on 8 October. Keep announcements on Home and staff publishing/timetable tools on the staff Home. Messages must always offer an exit to Home and open to a recipient chooser.
