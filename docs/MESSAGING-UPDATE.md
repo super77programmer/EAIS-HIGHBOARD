@@ -7,3 +7,5 @@ Conversation headers, search, bubbles, file cards, voice recording, and the comp
 Home reminders contain actual replies, upcoming payment dates, and open polls. Generic shortcuts are no longer repeated there. The compact signed-out planner uses a single sentence and sign-in action. Home remains announcement-first without layout controls.
 
 Verification: automated backend and interface suites, TypeScript, CSS parsing, and the production build. Real-device visual and keyboard verification is still required; no browser preview was available in this environment.
+
+The next refinement uses familiar WhatsApp chat ergonomics in the existing High Board theme: one mobile conversation header, circular avatars, subtle school doodles on warm paper, compact message bubbles with inline receipts, and a single composer row. The microphone switches to Send when text or an attachment is present. Attachment choices include documents, photos/videos, and a device camera capture. Native message actions offer Reply, Copy, and Report through a menu or long press. Keyboard resizing preserves the latest message when the user is at the bottom, while leaving older reading positions intact.
