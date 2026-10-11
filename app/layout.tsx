@@ -12,6 +12,7 @@ import "./warm-utilities.css";
 import "./motion.css";
 import "./experience.css";
 import "./completion.css";
+import "./school-life.css";
 
 export const metadata: Metadata = {
   title: "EAIS High Board | Student Life",

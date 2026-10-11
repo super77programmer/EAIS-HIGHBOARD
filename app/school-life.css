@@ -1,0 +1,130 @@
+/* Daily school life: the warm identity, with a clear reading order. */
+.school-day-home{max-width:1220px;padding:22px 0 28px}
+.school-day-home .daily-heading{margin:0 0 18px;gap:16px}
+.school-day-home .daily-heading h1{font-size:clamp(27px,2.8vw,35px);font-weight:750;letter-spacing:-1px}
+.school-day-home .daily-heading p{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:7px;font-size:13px}
+.home-class-chip{padding:3px 9px;background:#fff0e5;border:1px solid #f2dcc8;border-radius:7px;color:#83503a;font-size:11px}
+.home-greeting-note{display:block;font-size:14px;color:#667085;margin-top:6px}
+.school-day-home .daily-chat-action{border-radius:14px;background:#17243b;padding:11px 16px;box-shadow:0 3px 10px #17243b12}
+.school-day-home .daily-quick{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 22px}
+.school-day-home .daily-quick button{display:flex;flex-direction:row;gap:8px;border-radius:10px;padding:9px 13px;min-height:44px;font-size:13px;background:#ffffffc4;border:1px solid #e8ded6}
+.school-day-home .daily-quick button svg{color:#b13e58}
+.school-home-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(290px,1fr);gap:24px;align-items:start}
+.school-home-main,.school-home-side{display:flex;flex-direction:column;gap:20px;min-width:0}
+.school-day-home .school-home-surface,.school-day-home .school-bulletin,.school-day-home .personal-planner{background:#fff;border:1px solid #e7e3df;border-radius:20px;padding:22px;margin:0;box-shadow:0 3px 12px #49312403;min-width:0}
+.school-day-home .daily-section-heading{gap:12px;margin-bottom:16px}
+.school-day-home h2{font-size:18px;font-weight:750;color:#17243b;letter-spacing:-.45px}
+.school-day-home .daily-section-heading h2{display:flex;align-items:center;gap:8px}
+.school-day-home .daily-section-heading h2 svg{color:#b74a37}
+.school-day-home .daily-section-heading button{font-size:12px;min-height:40px;white-space:nowrap}
+.school-day-home .school-bulletin{border-top:3px solid #ff7e88;padding-top:19px}
+.bulletin-title{display:flex;align-items:center;gap:11px;min-width:0}
+.bulletin-symbol{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;background:#fff0f2;color:#b33455;flex-shrink:0}
+.bulletin-title p{font-size:12px;margin-top:3px}
+.update-count{white-space:nowrap;border-radius:7px;background:#fff0e6;color:#9a4c24;padding:4px 8px;font-size:11px;font-weight:700}
+.school-day-home .home-announcement-list{display:flex;flex-direction:column;gap:0}
+.school-day-home .home-announcement{border:0;border-top:1px solid #eee9e5;border-radius:0;border-left:0;background:transparent;padding:17px 0;position:relative}
+.school-day-home .home-announcement:last-child{padding-bottom:6px}
+.school-day-home .home-announcement summary{display:flex;align-items:flex-start;gap:12px;list-style:none;min-height:44px}
+.announcement-avatar{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:#f4f3f1;color:#797067;flex-shrink:0;margin-top:2px}
+.is-new .announcement-avatar{background:#fff0e5;color:#b4592d}
+.announcement-copy{display:block;min-width:0;flex:1}
+.school-day-home .home-announcement small{display:block;font-size:11px;color:#71717a;margin:0 0 4px}
+.school-day-home .home-announcement b{display:block;font-size:15px;line-height:1.5;color:#17243b;font-weight:700;overflow-wrap:anywhere}
+.announcement-excerpt{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-size:13px;color:#69717e;line-height:1.6;margin-top:5px;white-space:pre-wrap;overflow-wrap:anywhere}
+.announcement-open-label{display:flex;align-items:center;gap:4px;font-size:11px;font-weight:600;color:#ad3552;margin-top:9px}
+.new-update-dot{width:7px;height:7px;flex-shrink:0;border-radius:50%;background:#e45c76;margin-top:8px}
+.school-day-home .home-announcement[open] .announcement-excerpt{display:none}
+.school-day-home .home-announcement[open] .announcement-open-label svg{rotate:180deg}
+.school-day-home .home-announcement[open] p{padding:14px;margin:12px 0 0 46px;background:#fff8f3;border-radius:12px;font-size:14px;line-height:1.75;white-space:pre-wrap;overflow-wrap:anywhere;color:#394354}
+.update-search{display:flex;align-items:center;gap:8px;border:1px solid #e8e1db;border-radius:10px;padding:0 11px;margin-bottom:12px;color:#82828a;background:#faf9f7}
+.update-search input{width:100%;min-width:0;border:0;background:transparent;min-height:44px;font:inherit;font-size:13px;color:#17243b}
+.bulletin-more{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;min-height:44px;padding:10px 0 0;color:#b13e58;font-size:13px;border-top:1px solid #eee9e5;margin-top:10px}
+.bulletin-empty{display:flex;gap:14px;align-items:center;padding:18px 0;color:#bd6c54}
+.bulletin-empty h3{font-size:15px;margin-bottom:4px}.bulletin-empty p{font-size:13px}
+.bulletin-loading{display:grid;gap:12px;padding:12px 0}.bulletin-loading>span{height:14px;background:#f2eeea;border-radius:5px}.bulletin-loading>span:nth-child(2){width:80%}.bulletin-loading>span:nth-child(3){width:60%}
+.school-day-home .daily-lead{padding:16px 13px;gap:12px;background:#fff5ec;border:1px solid #f3dfcf;border-radius:13px}
+.school-day-home .daily-lead-date{min-width:47px;height:58px;border-radius:10px;background:#fff;color:#ae4e2b}
+.school-day-home .daily-lead-date b{font-size:25px}.school-day-home .daily-lead-date small{font-size:10px;color:#ae4e2b}
+.school-day-home .daily-lead-copy strong{font-size:16px;line-height:1.5;font-weight:750}.school-day-home .daily-lead-copy small{font-size:10px;margin-bottom:4px}.school-day-home .daily-lead-copy>span{font-size:11px;margin-top:6px}
+.school-day-home .daily-lead>svg{color:#b77750}
+.school-day-home .daily-next-exam{padding:13px 0;background:transparent;border:0;border-top:1px solid #efe8e2;margin-top:14px;border-radius:0;gap:9px}
+.school-day-home .daily-next-exam b{font-size:13px}.school-day-home .daily-next-exam small,.school-day-home .daily-next-exam time{font-size:11px}
+.school-day-home .daily-classroom{font-size:12px;display:flex;align-items:center;justify-content:space-between;margin-top:8px;min-height:40px}
+.school-day-home .daily-attention-item{gap:10px;padding:14px 0;min-height:52px}
+.school-day-home .daily-attention-item>span{flex:1;min-width:0}.school-day-home .daily-attention-item b{font-size:13px;overflow-wrap:anywhere}.school-day-home .daily-attention-item small{font-size:11px;line-height:1.65}
+.school-day-home .daily-attention-item>svg{color:#b56449}.school-day-home .daily-attention-item.deadline{background:#fff7ea;padding:12px;border:1px solid #f3dfbf;border-radius:11px;margin:0 0 4px}
+.school-day-home .daily-menu-link{font-size:12px;min-height:44px;width:100%;justify-content:space-between;display:flex;align-items:center}
+.school-day-home .daily-event{padding:14px 0;gap:10px}.school-day-home .daily-event-time{width:52px;font-size:12px}.school-day-home .daily-event b{font-size:13px}.school-day-home .daily-event small{font-size:11px}
+.school-day-home .daily-empty{padding:13px 0;font-size:13px}.school-day-home .daily-empty h3{font-size:15px}.school-day-home .daily-empty p{font-size:13px}
+.school-day-home .home-trips{overflow:hidden;padding:18px 0 0}.school-day-home .home-trips>.daily-section-heading{padding:0 20px;margin-bottom:14px}
+.school-day-home .visual-trip{display:flex;flex-direction:column;align-items:stretch;padding:0;border:0;gap:0;text-align:left;border-radius:0;overflow:hidden}
+.school-day-home .visual-trip>img{width:100%;height:155px;object-fit:cover;border-radius:0}
+.school-day-home .visual-trip>.trip-visual-copy{padding:18px 20px;background:#fff;display:block}
+.school-day-home .visual-trip b{font-size:17px;line-height:1.45;font-weight:750;margin:5px 0}
+.school-day-home .visual-trip small{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:#9f6846}
+.school-day-home .visual-trip .trip-action{display:flex;align-items:center;justify-content:space-between;color:#b2415a;font-size:12px;font-weight:600;margin-top:15px}
+.trip-art{display:grid;place-items:center;height:140px;background:radial-gradient(circle at 25% 65%,#ffd4a788,transparent 40%),linear-gradient(130deg,#ffe4e9,#fff1d7);color:#b95638}
+.school-day-home .home-polls{border:1px solid #e7e3df;padding:22px;margin:0}.school-day-home .home-poll-grid{display:grid;grid-template-columns:1fr;gap:16px}.school-day-home .home-poll-grid .poll{box-shadow:none;padding:18px;background:#fffaf7;border-color:#eee0d4;border-radius:14px}
+.school-day-home .home-lunch-preview{gap:12px;align-items:flex-start}.lunch-symbol{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:#fff3de;color:#99621c;flex-shrink:0}
+.school-day-home .home-lunch-preview b{display:block;font-size:15px;margin-top:4px}.school-day-home .home-lunch-preview small{font-size:10px}.school-day-home .home-lunch-preview p{font-size:12px;line-height:1.7}
+.school-day-home .daily-text-link{display:flex;gap:8px;align-items:center;min-height:44px;font-size:12px;color:#b2415a}
+.school-day-home .daily-preview{font-size:11px;margin:24px 0 0;padding:10px 0;border-top:1px solid #e7e3df;color:#71717a}.daily-preview summary{cursor:pointer;min-height:30px}.daily-preview p{font-size:12px;max-width:460px}
+.school-day-home .personal-planner h2{font-size:18px}.school-day-home .personal-planner .eyebrow{display:none}.school-day-home .personal-planner>p{font-size:12px;margin-top:6px;line-height:1.6}
+.school-day-home .planner-summary{gap:18px;padding:12px 14px;margin:15px 0;background:#fff5ec;font-size:12px}.school-day-home .planner-summary b{font-size:18px}
+.school-day-home .planner-toolbar button{font-size:12px;min-height:40px}.school-day-home .planner-toolbar>.primary{min-height:44px}.school-day-home .planner-search{margin:12px 0}.school-day-home .planner-search input{font-size:13px;padding:11px;min-height:44px}
+.school-day-home .planner-list li{padding:13px 0}.school-day-home .planner-list b{font-size:14px}.school-day-home .planner-list small{font-size:11px}.school-day-home .planner-empty{padding:16px 0;text-align:left}.school-day-home .planner-empty>svg{display:none}.school-day-home .planner-empty h3{font-size:15px;margin-top:0}.school-day-home .planner-empty p{font-size:12px}.school-day-home .planner-empty .primary{font-size:12px;min-height:44px}
+/* Shared page rhythm: content begins immediately below the title. */
+.shell .view-heading{border:0;padding:0;margin:24px 0 20px;gap:16px;align-items:center}
+.shell .view-heading>div:first-child{position:relative;padding-left:56px;min-height:46px;display:flex;flex-direction:column;justify-content:center}
+.page-symbol{display:grid;place-items:center;width:43px;height:43px;background:#fff0e7;color:#b64b38;border:1px solid #f3d8c6;border-radius:13px;position:absolute;left:0;top:1px}
+.shell .view-heading h1,.shell .view-heading h2{font-size:26px;line-height:1.35;font-weight:750;letter-spacing:-.7px;margin:0 0 4px;color:#17243b}
+.shell .view-heading p{font-size:13px;line-height:1.6}.shell .view-heading .eyebrow{margin-bottom:4px}.shell .view-heading .primary{min-height:44px;white-space:nowrap;font-size:13px;box-shadow:none}
+.shell .view-heading>div:not(:has(.page-symbol)){padding-left:0}
+.shell .sample-notice{display:block;border:0;font-size:11px;margin:14px 0 0;color:#79818d;max-width:100%;padding:0}.sample-notice summary{cursor:pointer;min-height:24px}.sample-notice p{font-size:12px;margin:4px 0}
+.shell .feed-section{margin-top:0;padding-top:0;border-top:0}
+.shell .voice-tabs{margin:0 0 18px;padding:5px;border-radius:14px;background:#ede9e5;border:0;box-shadow:none;max-width:480px}
+.shell .voice-tabs button{min-height:44px;font-size:13px;border-radius:10px;padding:10px 15px;color:#626b78}
+.shell .voice-tabs [aria-selected=true]{background:#fff;color:#a92d4e;box-shadow:0 2px 5px #49312409}
+.shell .voice-layout{display:flex;flex-direction:column;gap:18px}
+.suggestions-context{display:flex;align-items:center;gap:8px;font-size:12px;color:#697685;padding:0 0 16px}
+.community-suggestions .comm-layout{grid-template-columns:minmax(240px,.85fr) minmax(0,1.25fr);gap:18px}
+.community-suggestions .comm-inbox,.community-suggestions .conversation-placeholder{border-radius:18px;box-shadow:none;padding:20px;border-color:#e7e3df}
+.community-suggestions .conversation-placeholder{background:#fffaf6;min-height:290px}.community-suggestions .conversation-placeholder h3{font-size:18px}.community-suggestions .conversation-placeholder p{font-size:13px;max-width:300px}
+.community-suggestions .comm-inbox{min-height:290px}.community-suggestions .thread-item{border-radius:11px;padding:13px 10px}.community-suggestions .thread-item b{font-size:14px}.community-suggestions .receipt-note{font-size:11px;line-height:1.6;margin-top:15px}.community-suggestions .comm-empty{padding:25px 8px}.community-suggestions .comm-empty p{font-size:13px}
+.suggestion-status{display:inline-block!important;width:fit-content;background:#fff0e3;color:#934d27!important;border-radius:5px;padding:3px 7px;font-size:10px!important;margin-top:6px}
+.community-suggestions .recovery-tools{margin-top:18px;padding:16px 20px;border-radius:14px;box-shadow:none}.recovery-tools>summary{min-height:28px;font-size:13px}.suggestion-form{border-radius:18px;padding:22px;margin:0 0 18px}.suggestion-form h3{font-size:18px}.suggestion-form label{font-size:13px}
+.shell .poll-stack{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.shell .poll{border-radius:18px;box-shadow:none}.shell .poll h3{font-size:18px}.shell .poll p{font-size:13px}.poll-option{min-height:48px}.poll-option span{font-size:14px}
+.shell .canteen-layout{gap:22px;align-items:start}.shell .meal-grid{gap:14px}.shell .meal{position:relative;border-radius:18px;padding:22px;background:#fff;box-shadow:none;overflow:hidden;border-color:#e7e3df}
+.shell .meal:before{content:'';position:absolute;width:100px;height:100px;right:-30px;top:-35px;border-radius:50%;background:#fff0e1}.shell .meal-icon{width:52px;height:52px;border-radius:16px;background:#fff0e3;color:#b05b2e;position:relative}.shell .meal-number{font-size:11px;color:#93908e}.shell .meal h3{font-size:17px;margin-top:14px}.shell .meal>p{font-size:12px;min-height:22px}.shell .meal>strong{font-size:25px;margin-top:12px;color:#17243b}
+.shell .canteen-layout .request{border-radius:18px;box-shadow:none;background:#fffaf6;border-color:#e7e3df;padding:22px}.shell .request h3{font-size:18px}.shell .request>p{font-size:13px}.shell .request textarea{min-height:95px}
+.shell .calendar{border-radius:20px;padding:24px;box-shadow:none;border-color:#e7e3df}.shell .calendar .section-title h2{font-size:21px}.shell .calendar-discovery{background:#faf7f3;border-radius:12px;padding:12px;margin:16px 0}.shell .calendar-event{font-size:11px;border-radius:5px;line-height:1.4}.shell .calendar .selected-day{background:#fff1e6;border-color:#eeac7d}.shell .mobile-agenda .section-title h3{font-size:15px}.shell .agenda-empty{border-radius:14px;background:#faf7f3}
+.shell .schedules,.shell .workspace .panel{border-radius:18px;box-shadow:none}.shell .workspace-shortcuts button{border-radius:14px}.shell .workspace .view-heading h2{font-size:26px}.shell .workspace .eyebrow{font-size:10px}.shell .exam-card{border-radius:16px;box-shadow:none}.shell .exam-card h3{font-size:17px}
+/* Conversation stays full screen, with the same school identity. */
+.chat-workspace .messages-navigation{background:#fff7f1;border-color:#ecdfd5}.chat-workspace .messages-navigation button[aria-pressed=true]{background:#ffe6d6;color:#923f24}
+.chat-workspace .inbox-heading,.chat-workspace .conversation-header,.chat-workspace .message-composer{background:#fff8f3!important;border-color:#ece0d6}
+.chat-workspace .teacher-avatar,.chat-workspace .thread-avatar{background:#ffe8dc;color:#974d2d}.chat-workspace .thread-item.selected{background:#fff0e6}.chat-workspace .thread-item:hover{background:#fff8f3}
+.chat-workspace .message-history{background-color:#faf5ef;background-image:radial-gradient(#d8c7b92b .8px,transparent .8px)}
+.chat-workspace .message-bubble.mine{background:#ffe4d4!important}.chat-workspace .conversation-placeholder{background:#faf5ef!important;border-bottom:4px solid #eea083!important}.chat-workspace .conversation-placeholder h3{font-size:24px}.chat-workspace .composer-actions>.primary{background:#b44535!important;color:white!important}.chat-workspace .unread-badge{background:#ba4a37}
+.toast{left:auto;right:24px;bottom:24px;transform:none;width:min(370px,calc(100vw - 32px));padding:12px 14px;gap:10px;background:#fff;border:1px solid #e3d9d0;box-shadow:0 8px 30px #33261915;border-radius:13px;color:#425064;font-size:13px;line-height:1.5;align-items:flex-start}
+.toast>span{flex:1;min-width:0;overflow-wrap:anywhere}.toast>svg{margin-top:2px;color:#9f6145}.toast .icon-button{min-width:32px;min-height:32px;margin:-4px -4px -4px 0}.toast:hover{animation:none}
+@media(min-width:1100px){.shell{padding-left:36px;padding-right:36px}.header-inner{padding-left:36px;padding-right:36px}.navigation button.active svg{color:#b63c55}.shell>footer{margin-top:24px;font-size:11px}}
+@media(max-width:1100px) and (min-width:761px){.school-home-grid{grid-template-columns:minmax(0,1.4fr) minmax(265px,1fr);gap:18px}.school-day-home .school-home-surface,.school-day-home .school-bulletin,.school-day-home .personal-planner{padding:18px}.school-day-home .home-trips{padding:18px 0 0}.bulletin-title{gap:8px}.bulletin-symbol{display:none}.school-day-home h2{font-size:16px}}
+@media(max-width:760px){
+ .school-day-home{padding-top:20px}.school-day-home .daily-heading{margin-bottom:15px;align-items:center}.school-day-home .daily-heading h1{font-size:27px}.school-day-home .daily-heading p{font-size:11px;gap:7px}.home-class-chip{font-size:10px}.home-greeting-note{font-size:12px;margin-top:5px}
+ .school-day-home .daily-chat-action{width:44px;height:44px;padding:0;border-radius:12px;flex-shrink:0;justify-content:center}.school-day-home .daily-chat-action>span{display:none}.school-day-home .daily-chat-action svg{width:20px;height:20px}
+ .school-day-home .daily-quick{gap:6px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:18px}.school-day-home .daily-quick button{flex-direction:column;gap:6px;justify-content:center;align-items:center;padding:10px 2px;font-size:10px;min-height:61px;border-radius:12px}.school-day-home .daily-quick button svg{width:18px;height:18px}
+ .school-home-grid{display:flex;flex-direction:column;gap:16px}.school-home-main,.school-home-side{display:contents}.school-bulletin{order:0;width:100%}.daily-today{order:1;width:100%}.daily-attention{order:2;width:100%}.personal-planner{order:3;width:100%}.home-trips{order:4;width:100%}.daily-upcoming{order:5;width:100%}.home-polls{order:6;width:100%}.home-lunch-preview{order:7;width:100%}
+ .school-day-home .school-home-surface,.school-day-home .school-bulletin,.school-day-home .personal-planner{padding:18px;border-radius:17px}.school-day-home h2{font-size:17px}.school-day-home .daily-section-heading{margin-bottom:13px}.bulletin-title p{font-size:11px}.bulletin-symbol{width:35px;height:35px;border-radius:10px}.bulletin-title{gap:9px}.update-count{font-size:10px;padding:4px 6px}
+ .school-day-home .home-announcement{padding:15px 0}.school-day-home .home-announcement b{font-size:14px}.school-day-home .home-announcement summary{gap:10px}.announcement-avatar{width:30px;height:30px;border-radius:9px}.announcement-avatar svg{width:16px;height:16px}.announcement-excerpt{font-size:12px}.school-day-home .home-announcement[open] p{margin-left:0;font-size:13px}.school-day-home .home-trips{padding:17px 0 0}.school-day-home .visual-trip>img{height:170px}.school-day-home .visual-trip>.trip-visual-copy{padding:17px 18px}
+ .school-day-home .planner-toolbar>.primary{width:auto}.school-day-home .planner-toolbar [role=group]{gap:2px}.school-day-home .planner-toolbar [role=group] button{padding:8px;font-size:11px}.school-day-home .planner-form{padding:14px}
+ .shell .view-heading{margin:20px 0 16px;gap:14px;flex-direction:row;flex-wrap:wrap;align-items:center}.shell .view-heading h1,.shell .view-heading h2{font-size:24px}.shell .view-heading>div:first-child{padding-left:49px}.page-symbol{width:38px;height:38px;border-radius:11px}.page-symbol svg{width:20px;height:20px}.shell .view-heading p{font-size:12px}.shell .view-heading>.primary{margin-left:49px;font-size:12px;min-height:44px}
+ .shell .voice-tabs{width:100%;max-width:none;margin-bottom:16px}.suggestions-context{font-size:11px;padding-bottom:13px}.community-suggestions .comm-layout{grid-template-columns:1fr;gap:0}.community-suggestions .conversation-placeholder{display:none}.community-suggestions .comm-inbox{min-height:220px;padding:17px}.community-suggestions .comm-layout.thread-open .comm-inbox{display:none}.community-suggestions .comm-layout.thread-open .conversation{min-height:450px;height:65dvh;border-radius:16px}.community-suggestions .recovery-tools{padding:14px 17px}.suggestion-form{padding:17px}.shell .poll-stack{grid-template-columns:1fr}.shell .poll h3{font-size:17px}
+ .shell .calendar{padding:17px}.shell .calendar .section-title{flex-wrap:wrap;gap:10px}.shell .calendar .section-title h2{font-size:19px}.shell .calendar-discovery{padding:10px;gap:10px}.shell .calendar-discovery select{max-width:100%}.shell .calendar .calendar-controls{margin-left:0}.shell .calendar-grid:not(.daily) .day{min-height:65px}.shell .calendar-grid:not(.daily) .calendar-event{font-size:10px;padding:4px 2px}
+ .shell .meal{padding:17px}.shell .meal h3{font-size:15px}.shell .meal>strong{font-size:23px}.shell .meal-icon{width:46px;height:46px}.shell .canteen-layout .request{padding:18px}.shell .sample-notice{margin-top:12px;font-size:10px}.shell footer{margin-top:26px;font-size:10px;gap:10px 16px}
+ .toast{right:16px;bottom:calc(85px + env(safe-area-inset-bottom));font-size:12px;width:min(350px,calc(100vw - 32px));padding:11px 12px}.shell .navigation{padding-left:10px;padding-right:10px}.shell .navigation button svg{width:22px;height:22px}.shell .navigation button.active{background:#fff0e8;color:#a33d35}.shell .navigation button.active svg{color:#b14538}
+}
+@media(max-width:380px){.bulletin-symbol{display:none}.school-day-home .daily-heading p{font-size:10px}.school-day-home h2{font-size:16px}.school-day-home .planner-toolbar>.primary{width:100%;justify-content:center}.shell .meal-grid{gap:10px}.shell .meal{padding:14px}}
+@media(prefers-reduced-motion:no-preference){.school-bulletin,.school-home-surface{animation:school-surface-enter .25s ease-out}.home-announcement summary,.daily-trip-row img{transition:color .18s,transform .25s}.visual-trip:hover>img{transform:scale(1.025)}.home-announcement summary:hover b{color:#b33a54}.bulletin-loading>span{animation:bulletin-pulse 1.4s ease-in-out infinite}@keyframes bulletin-pulse{50%{opacity:.45}}}
+@media(prefers-reduced-motion:reduce){.school-day-home *,.toast{animation:none!important;transition:none!important}.visual-trip:hover>img{transform:none}}
+@media(max-width:760px){.home-interest-polls .home-polls{order:3}.home-interest-polls .personal-planner{order:4}.home-interest-polls .home-trips{order:5}.home-interest-polls .daily-upcoming{order:6}.home-interest-events .daily-upcoming{order:4}.home-interest-events .home-trips{order:5}}

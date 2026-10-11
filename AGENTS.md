@@ -9,3 +9,5 @@ Add features and animations within this visual identity. Preserve reduced-motion
 Publish authorised updates and sync them to the existing GitHub repository, as requested by the owner.
 
 The owner requested full guided onboarding and removal of the standalone Workspace navigation page on 8 October. Keep announcements on Home and staff publishing/timetable tools on the staff Home. Messages must always offer an exit to Home and open to a recipient chooser.
+
+On 11 October the owner requested an announcement-first, more visual daily experience and removal of layout choices from Home. Keep `app/school-life.css` and the combined `SchoolUpdates` feed. New announcements always lead Home; interest choices belong in profile/onboarding. Preserve the compact page headings and direct Share an idea form action rather than restoring duplicated slogans or Home statistic blocks.
