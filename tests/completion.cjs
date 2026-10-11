@@ -18,6 +18,8 @@ async function call(handler,body,cookie='',query='',type='application/json'){con
 
 const planner=require(out+'/app/api/planner/route.js'),trips=require(out+'/app/api/trips/route.js'),schoolTime=require(out+'/lib/school-time.js');
 (async()=>{
+ const oversized=await board.POST(new Request(origin+'/api/board',{method:'POST',headers:{origin,'content-type':'application/json'},body:JSON.stringify({action:'rating',padding:'x'.repeat(17000)})}));assert.equal(oversized.status,413,'Board bounds streamed request bytes without Content-Length');
+
 for(const p of [{email:'s@els-egypt.info',name:'Student',role:'student',class_name:'8A'},{email:'o@els-egypt.info',name:'Other',role:'student',class_name:'8B'},{email:'t@els-egypt.info',name:'Teacher',role:'teacher',classes:['8A']},{email:'v@els-egypt.info',name:'Other teacher',role:'teacher',classes:['8B']},{email:'c@els-egypt.info',name:'Council',role:'council',class_name:'8A'},{email:'f@els-egypt.info',name:'Staff',role:'staff'},{email:'a@els-egypt.info',name:'Admin',role:'administrator'}])sql.prepare('INSERT INTO comm_people(email,name,role,class_name,classes,active) VALUES(?,?,?,?,?,1)').run(p.email,p.name,p.role,p.class_name||'',JSON.stringify(p.classes||[]));
 const cookies={};for(const k of ['s','o','t','v','c','f','a'])cookies[k]='hb_identity='+await core.newSession(k+'@els-egypt.info',1);
 const student=cookies.s,other=cookies.o,teacher=cookies.t,council=cookies.c,staff=cookies.f,admin=cookies.a;

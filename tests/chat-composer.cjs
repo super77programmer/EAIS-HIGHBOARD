@@ -1,7 +1,7 @@
 const fs=require('fs'),path=require('path'),os=require('os'),assert=require('assert/strict'),ts=require('typescript');
 const root=path.resolve(__dirname,'..'),out=fs.mkdtempSync(path.join(os.tmpdir(),'hb-chat-compose-'));
 fs.symlinkSync(root+'/node_modules',out+'/node_modules','dir');
-for(const name of ['ChatComposer','SchoolMessenger','VoiceRecorder'])fs.writeFileSync(out+'/'+name+'.js',ts.transpileModule(fs.readFileSync(root+'/components/'+name+'.tsx','utf8'),{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText);
+for(const name of ['ChatComposer','SchoolMessenger','VoiceMessage','VoiceRecorder'])fs.writeFileSync(out+'/'+name+'.js',ts.transpileModule(fs.readFileSync(root+'/components/'+name+'.tsx','utf8'),{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText);
 const {JSDOM}=require('jsdom'),dom=new JSDOM('<div id="root"></div>',{url:'https://test.local',pretendToBeVisual:true}),w=dom.window;
 for(const k of ['window','document','HTMLElement','Element','Node','Event'])global[k]=w[k];
 global.requestAnimationFrame=w.requestAnimationFrame.bind(w);global.cancelAnimationFrame=w.cancelAnimationFrame.bind(w);global.IS_REACT_ACT_ENVIRONMENT=true;
