@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import "./light.css";
 import "./community.css";
 import "./home.css";
-import "./messaging.css";
 import "./usability.css";
 import "./core-release.css";
 import "./workspace.css";
@@ -13,6 +12,7 @@ import "./motion.css";
 import "./experience.css";
 import "./completion.css";
 import "./school-life.css";
+import "./messaging.css";
 
 export const metadata: Metadata = {
   title: "EAIS High Board | Student Life",

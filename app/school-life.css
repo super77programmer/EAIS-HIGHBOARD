@@ -128,3 +128,16 @@
 @media(prefers-reduced-motion:no-preference){.school-bulletin,.school-home-surface{animation:school-surface-enter .25s ease-out}.home-announcement summary,.daily-trip-row img{transition:color .18s,transform .25s}.visual-trip:hover>img{transform:scale(1.025)}.home-announcement summary:hover b{color:#b33a54}.bulletin-loading>span{animation:bulletin-pulse 1.4s ease-in-out infinite}@keyframes bulletin-pulse{50%{opacity:.45}}}
 @media(prefers-reduced-motion:reduce){.school-day-home *,.toast{animation:none!important;transition:none!important}.visual-trip:hover>img{transform:none}}
 @media(max-width:760px){.home-interest-polls .home-polls{order:3}.home-interest-polls .personal-planner{order:4}.home-interest-polls .home-trips{order:5}.home-interest-polls .daily-upcoming{order:6}.home-interest-events .daily-upcoming{order:4}.home-interest-events .home-trips{order:5}}
+/* Reminders contain real actions, rather than another shortcut list. */
+.school-day-home .attention-digest{padding:17px 20px;background:#fffaf5;border-color:#eedfce}
+.school-day-home .attention-digest:not(:has(.daily-attention-item,.reply-notice)){display:none}
+.school-day-home .attention-digest .daily-section-heading{margin-bottom:6px}.school-day-home .attention-digest h2{font-size:15px}
+.school-day-home .attention-digest .daily-attention-item{gap:10px;padding:11px 0;border:0;min-height:64px;margin:0;background:transparent;border-radius:0}
+.school-day-home .attention-digest .daily-attention-item+.daily-attention-item{border-top:1px solid #eedfce}
+.attention-icon{width:33px;height:33px;flex:0 0 33px!important;display:grid;place-items:center;border-radius:10px;background:#ffe8d5;color:#a35a31}
+.school-day-home .attention-digest .daily-attention-item b{font-size:13px}.school-day-home .attention-digest .daily-attention-item small{font-size:11px;margin-top:3px}
+.attention-cta{display:flex;align-items:center;gap:5px;flex:0 0 auto!important;color:#a04736;font-size:12px;font-weight:600}
+.school-day-home .attention-digest .reply-notice{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:10px 0;border:0;border-radius:0;box-shadow:none;background:transparent;font-size:13px}.attention-digest .reply-notice p{font-size:11px}.attention-digest .reply-notice button{font-size:11px;min-height:40px;padding:8px 10px}
+.school-day-home .planner-guest{padding:17px 20px}.school-day-home .planner-guest h2{font-size:15px}.school-day-home .planner-guest h2 svg{width:19px;height:19px}.school-day-home .planner-guest .section-title{margin-bottom:8px}
+.school-day-home .planner-guest .planner-signin{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:0}.school-day-home .planner-guest .planner-signin p{font-size:12px;line-height:1.6}.school-day-home .planner-guest .planner-signin button{flex-shrink:0;min-height:44px;font-size:12px;padding:10px 13px;border-radius:11px;background:#fff3e9;border-color:#efd7c5;color:#96412b}
+@media(max-width:760px){.school-day-home .attention-digest,.school-day-home .planner-guest{padding:15px 17px}.school-day-home .attention-digest .daily-attention-item{min-height:60px}.school-day-home .planner-guest .planner-signin{gap:10px}.school-day-home .planner-guest .planner-signin p{max-width:180px}.school-day-home .planner-guest .planner-signin button{font-size:11px;padding:9px 11px}}
