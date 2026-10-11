@@ -27,9 +27,10 @@ async function denied(body,cookie,query){const x=await req(body,cookie,query);as
  for(const p of [{email:'student@els-egypt.info',name:'Student',role:'student',class_name:'8A'},{email:'other@els-egypt.info',name:'Other',role:'student',class_name:'8B'},{email:'teacher@els-egypt.info',name:'Teacher',role:'teacher',classes:'8A'},{email:'council@els-egypt.info',name:'Council',role:'council',class_name:'8A'}])await ok({action:'person',...p},admin);
  const cookieFor=async email=>'hb_identity='+await core.newSession(email,1);const student=await cookieFor('student@els-egypt.info'),teacher=await cookieFor('teacher@els-egypt.info'),outsider=await cookieFor('other@els-egypt.info'),council=await cookieFor('council@els-egypt.info');
  await denied({action:'person',email:'attacker@els-egypt.info',name:'Attacker',role:'staff'},student);
- assert.equal((await ok(null,student)).data.teachers.length,1);assert.equal((await ok(null,outsider)).data.teachers.length,0);
+ assert.equal((await ok(null,student)).data.teachers.length,1);assert.equal((await ok(null,student)).data.teachers[0].role,'teacher');assert.equal((await ok(null,student)).data.teachers[0].class_name,'8A');assert.equal((await ok(null,outsider)).data.teachers.length,0);
  await denied({action:'start',teacher:'teacher@els-egypt.info'},outsider);await denied({action:'start',teacher:'other@els-egypt.info'},student);
  const chat=(await ok({action:'start',teacher:'teacher@els-egypt.info'},student)).data.id;await ok({action:'send',thread:chat,body:'Could you explain the assignment?'},student);await ok({action:'send',thread:chat,body:'Of course. Which part?'},teacher);
+ assert.equal((await ok(null,student)).data.threads.find(t=>t.id===chat).peerEmail,'teacher@els-egypt.info');assert.equal((await ok(null,teacher)).data.threads.find(t=>t.id===chat).peerEmail,'student@els-egypt.info');
  // Teachers receive only assigned students and can initiate conversations themselves.
  assert.equal((await ok(null,teacher)).data.contacts.some(p=>p.email==='other@els-egypt.info'),false);
  assert.ok((await ok(null,teacher)).data.contacts.some(p=>p.email==='student@els-egypt.info'));

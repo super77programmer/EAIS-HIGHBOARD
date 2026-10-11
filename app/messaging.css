@@ -166,3 +166,43 @@
 .messenger .conversation>.message-action-menu>button:first-child{margin-right:auto}
 .messenger .message-row[data-selected=true]{background:#dfa99b30;border-radius:8px}
 @media(max-width:760px){.messenger .conversation>.message-action-menu{height:60px;padding:7px 8px}}
+
+/* Teacher directory and touch voice recording. */
+.messenger .directory-label{display:flex;justify-content:space-between;align-items:center;padding:15px 12px 7px;color:#9e7a68;font-size:11px;font-weight:700}
+.messenger .directory-label>span:last-child{font-size:10px;background:#f8eee6;border-radius:12px;padding:2px 7px}
+.messenger .contact-letter{padding:10px 12px 3px;font-size:11px;font-weight:700;color:#b79a87}
+.messenger .contact-chat-action{display:flex;align-items:center;gap:4px;flex-shrink:0;color:#b35758;font-size:10px}
+.messenger .contact-picker>button>span:nth-child(2)>small{font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+.messenger .contact-recents{padding:4px 8px 12px;margin:0 3px;border-bottom:1px solid #efe5dc}
+.messenger .contact-recents h3{font-size:11px;font-weight:650;color:#a0826d;margin:8px 0 7px}
+.messenger .contact-recents>button{display:flex;align-items:center;gap:11px;width:100%;min-height:65px;padding:9px 7px;border-radius:11px;text-align:left}
+.messenger .contact-recents>button:hover{background:#fff2e8}
+.messenger .contact-recents>button>span:nth-child(2){flex:1;min-width:0}
+.messenger .contact-recents b{font-size:13px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.messenger .contact-recents small{display:block;font-size:11px;color:#988b81;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.messenger .has-saved-draft{color:#b14b58!important}
+.messenger .demo-contact-detail{display:block;color:#a68773;font-size:10px;margin-top:3px}
+.messenger .demo-directory-tabs{margin:0 18px 9px}
+.messenger .demo-contact small{font-size:11px}
+.messenger .voice-control{position:relative;flex-shrink:0}
+.messenger .voice-control .chat-mic{touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;position:relative;z-index:3}
+.messenger .voice-control.is-recording{display:flex;align-items:center;gap:10px;flex:1;min-width:0;width:100%}
+.messenger .voice-active .chat-input-pill{display:none}
+.messenger .voice-recording-panel{flex:1;min-width:0;background:#fffaf6;border:1px solid #eedad0;border-radius:24px;padding:12px 14px}
+.messenger .voice-recording-status{display:flex;align-items:center;gap:9px;min-height:23px;white-space:nowrap;min-width:0}
+.messenger .voice-recording-status time{font-size:15px;font-variant-numeric:tabular-nums;color:#924f51}
+.messenger .voice-recording-status>span:last-of-type{flex:1;font-size:11px;color:#a68d7f;overflow:hidden;text-overflow:ellipsis}
+.messenger .voice-dot{display:block;flex-shrink:0;width:7px;height:7px;border-radius:50%;background:#c94b5f}
+.messenger .voice-dot.is-paused{background:#b29c85}
+.messenger .voice-control.is-recording:not(.is-locked) .chat-mic{background:#c94765;box-shadow:0 0 0 8px #ca6c7c18}
+.messenger .voice-lock-target{position:absolute;right:8px;bottom:70px;z-index:15;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;width:40px;height:90px;border-radius:24px;background:#fff7ef;box-shadow:0 3px 15px #70503c18;border:1px solid #e7d6c7;color:#b04e5b;pointer-events:none}
+.messenger .voice-control.is-locked>.chat-mic{display:none}
+.messenger .voice-control.is-locked .voice-recording-panel{border-radius:18px}
+.messenger .voice-locked-actions{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:9px}
+.messenger .voice-locked-actions>.icon-button{color:#b2565e;width:44px;min-width:44px}
+.messenger .voice-locked-actions .chat-round-action{width:44px;min-width:44px;height:44px;min-height:44px}
+.messenger .voice-preview-stop{display:flex;align-items:center;gap:5px;min-height:44px;padding:8px;font-size:11px;color:#aa7660}
+.messenger .voice-recording-panel>audio{display:block;width:100%;height:40px;margin-top:10px}
+.messenger .voice-hint{position:absolute;bottom:calc(100% + 14px);right:0;min-width:200px;max-width:calc(100vw - 32px);font-size:11px;background:#fff7ef;color:#9e6e60;padding:10px 12px;border:1px solid #e7d6c7;border-radius:12px;box-shadow:0 3px 15px #70503c18;z-index:20}
+@media(max-width:760px){.messenger .directory-label,.messenger .contact-letter{padding-left:18px;padding-right:18px}.messenger .contact-recents{margin:0 12px;padding-left:6px;padding-right:6px}.messenger .contact-chat-action{font-size:9px;gap:3px}.messenger .voice-recording-panel{padding:10px 12px}.messenger .voice-control.is-recording{gap:7px}.messenger .voice-recording-status{gap:7px}.messenger .voice-recording-status>span:last-of-type{font-size:10px}.messenger .voice-locked-actions{gap:4px}.messenger .voice-preview-stop{font-size:10px;padding:5px}}
+@media(prefers-reduced-motion:no-preference){.messenger .voice-dot:not(.is-paused){animation:inbox-pulse 1s ease-in-out infinite}}
