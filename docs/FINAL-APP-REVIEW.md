@@ -1,6 +1,6 @@
 # App file review
 
-Reviewed 247 tracked and new files. Every file was read by the structural audit; the table records the applicable check. This is a static inventory and syntax review, supplemented by TypeScript, a production build, and functional tests. It is not a claim that every possible behavior has been verified.
+Reviewed 253 tracked and new files. Every file was read by the structural audit; the table records the applicable check. This is a static inventory and syntax review, supplemented by TypeScript, a production build, and functional tests. It is not a claim that every possible behavior has been verified.
 
 ## Functional review
 
@@ -22,11 +22,11 @@ Real-device microphone permissions, codec decoding, visual appearance, mobile ke
 | `.gitignore` | 652 | Read / inventory |
 | `.npmrc` | 45 | Read / inventory |
 | `.openai/hosting.json` | 93 | JSON structure |
-| `AGENTS.md` | 3073 | Read / inventory |
+| `AGENTS.md` | 3468 | Read / inventory |
 | `DOWNLOAD-AND-RUN.md` | 2947 | Read / inventory |
 | `README.md` | 10120 | Read / inventory |
 | `app/api/attachments/route.ts` | 4142 | Syntax / source scan |
-| `app/api/board/route.ts` | 13095 | Syntax / source scan |
+| `app/api/board/route.ts` | 13587 | Syntax / source scan |
 | `app/api/community/route.ts` | 22559 | Syntax / source scan |
 | `app/api/media-upload/route.ts` | 5522 | Syntax / source scan |
 | `app/api/planner/route.ts` | 4033 | Syntax / source scan |
@@ -34,6 +34,7 @@ Real-device microphone permissions, codec decoding, visual appearance, mobile ke
 | `app/api/trip-questions/route.ts` | 5536 | Syntax / source scan |
 | `app/api/trips/route.ts` | 6996 | Syntax / source scan |
 | `app/api/workspace/route.ts` | 10848 | Syntax / source scan |
+| `app/calendar.css` | 11509 | CSS structure |
 | `app/chatgpt-auth.ts` | 2550 | Syntax / source scan |
 | `app/community.css` | 32998 | CSS structure |
 | `app/completion.css` | 4270 | CSS structure |
@@ -42,11 +43,11 @@ Real-device microphone permissions, codec decoding, visual appearance, mobile ke
 | `app/experience.css` | 9781 | CSS structure |
 | `app/globals.css` | 23704 | CSS structure |
 | `app/home.css` | 9719 | CSS structure |
-| `app/layout.tsx` | 927 | Syntax / source scan |
+| `app/layout.tsx` | 952 | Syntax / source scan |
 | `app/light.css` | 67153 | CSS structure |
 | `app/messaging.css` | 52875 | CSS structure |
 | `app/motion.css` | 1811 | CSS structure |
-| `app/page.tsx` | 50544 | Syntax / source scan |
+| `app/page.tsx` | 45942 | Syntax / source scan |
 | `app/privacy/page.tsx` | 6065 | Syntax / source scan |
 | `app/redesign.css` | 53349 | CSS structure |
 | `app/school-app.css` | 13593 | CSS structure |
@@ -72,11 +73,12 @@ Real-device microphone permissions, codec decoding, visual appearance, mobile ke
 | `components/FeedbackToast.tsx` | 1489 | Syntax / source scan |
 | `components/FileAttachment.tsx` | 4584 | Syntax / source scan |
 | `components/HomeFocusPicker.tsx` | 854 | Syntax / source scan |
-| `components/HomeOverview.tsx` | 9342 | Syntax / source scan |
+| `components/HomeOverview.tsx` | 9431 | Syntax / source scan |
 | `components/Motion.tsx` | 12997 | Syntax / source scan |
 | `components/Planner.tsx` | 8049 | Syntax / source scan |
 | `components/PublishingEditor.tsx` | 5454 | Syntax / source scan |
 | `components/Reliability.tsx` | 7429 | Syntax / source scan |
+| `components/SchoolCalendar.tsx` | 10996 | Syntax / source scan |
 | `components/SchoolMessenger.tsx` | 11862 | Syntax / source scan |
 | `components/SchoolUpdates.tsx` | 5699 | Syntax / source scan |
 | `components/TripCollection.tsx` | 5772 | Syntax / source scan |
@@ -157,11 +159,12 @@ Real-device microphone permissions, codec decoding, visual appearance, mobile ke
 | `docs/AUTHENTICATION-AND-MOTION.md` | 5426 | Read / inventory |
 | `docs/COMMUNICATIONS.md` | 6618 | Read / inventory |
 | `docs/COMPLETION-UPDATE.md` | 3255 | Read / inventory |
-| `docs/FINAL-APP-REVIEW.md` | 16826 | Read / inventory |
+| `docs/FINAL-APP-REVIEW.md` | 17105 | Read / inventory |
 | `docs/FINAL-UI-POLISH.md` | 1681 | Read / inventory |
 | `docs/MESSAGING-UPDATE.md` | 2902 | Read / inventory |
 | `docs/ONBOARDING-HOME-WORKSPACE.md` | 2794 | Read / inventory |
 | `docs/PRODUCT-ROADMAP.md` | 3826 | Read / inventory |
+| `docs/SCHOOL-CALENDAR-IMPORT.md` | 3058 | Read / inventory |
 | `docs/SCHOOL-LAUNCH-READINESS.md` | 5915 | Read / inventory |
 | `docs/TRIP-INTEREST.md` | 2286 | Read / inventory |
 | `docs/TRIP-QUESTIONS.md` | 2309 | Read / inventory |
@@ -197,7 +200,8 @@ Real-device microphone permissions, codec decoding, visual appearance, mobile ke
 | `examples/d1/db/schema.ts` | 370 | Syntax / source scan |
 | `hooks/use-mobile.ts` | 565 | Syntax / source scan |
 | `lib/admin-auth.ts` | 1486 | Syntax / source scan |
-| `lib/board.ts` | 3826 | Syntax / source scan |
+| `lib/board.ts` | 4033 | Syntax / source scan |
+| `lib/calendar.ts` | 1827 | Syntax / source scan |
 | `lib/communications.ts` | 5439 | Syntax / source scan |
 | `lib/community-client.ts` | 1862 | Syntax / source scan |
 | `lib/connector-context.ts` | 612 | Syntax / source scan |
@@ -212,6 +216,7 @@ Real-device microphone permissions, codec decoding, visual appearance, mobile ke
 | `lib/media-client.ts` | 1451 | Syntax / source scan |
 | `lib/moderation.ts` | 1956 | Syntax / source scan |
 | `lib/motion.ts` | 1975 | Syntax / source scan |
+| `lib/school-calendar-data.json` | 153921 | JSON structure |
 | `lib/school-time.ts` | 1183 | Syntax / source scan |
 | `lib/trip-client.ts` | 163 | Syntax / source scan |
 | `lib/trip-questions.ts` | 1991 | Syntax / source scan |
@@ -247,21 +252,22 @@ Real-device microphone permissions, codec decoding, visual appearance, mobile ke
 | `scripts/run-framework.mjs` | 993 | Read / inventory |
 | `scripts/sites-env.mjs` | 906 | Read / inventory |
 | `scripts/sites-env.sh` | 1530 | Shell syntax |
-| `scripts/test.mjs` | 554 | Read / inventory |
+| `scripts/test.mjs` | 565 | Read / inventory |
+| `tests/calendar.cjs` | 6124 | Read / inventory |
 | `tests/chat-composer.cjs` | 6557 | Read / inventory |
-| `tests/communications.cjs` | 27149 | Read / inventory |
+| `tests/communications.cjs` | 27242 | Read / inventory |
 | `tests/community-cache.cjs` | 1800 | Read / inventory |
-| `tests/completion.cjs` | 13292 | Read / inventory |
+| `tests/completion.cjs` | 14780 | Read / inventory |
 | `tests/feedback-toast.cjs` | 4486 | Read / inventory |
-| `tests/interface.cjs` | 40409 | Read / inventory |
-| `tests/intro.cjs` | 4225 | Read / inventory |
+| `tests/interface.cjs` | 41228 | Read / inventory |
+| `tests/intro.cjs` | 4368 | Read / inventory |
 | `tests/media-cancel.cjs` | 2134 | Read / inventory |
 | `tests/school-ui.cjs` | 5375 | Read / inventory |
-| `tests/trip-interest.cjs` | 8609 | Read / inventory |
-| `tests/trip-questions.cjs` | 8687 | Read / inventory |
+| `tests/trip-interest.cjs` | 8702 | Read / inventory |
+| `tests/trip-questions.cjs` | 8780 | Read / inventory |
 | `tests/voice-message.cjs` | 4155 | Read / inventory |
 | `tests/voice-recorder.cjs` | 8133 | Read / inventory |
-| `tests/workspace-media.cjs` | 10893 | Read / inventory |
+| `tests/workspace-media.cjs` | 10986 | Read / inventory |
 | `tsconfig.json` | 800 | JSON structure |
 | `vendor/shadcn-tailwind-4.13.0.LICENSE.md` | 1063 | Read / inventory |
 | `vendor/shadcn-tailwind-4.13.0.css` | 16041 | CSS structure |

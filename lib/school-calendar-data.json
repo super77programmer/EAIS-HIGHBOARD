@@ -1,0 +1,5398 @@
+[
+  {
+    "id": "eais-2627-2026-08-11-administration-returns",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Administration returns",
+    "start": "2026-08-11T00:00:00+03:00",
+    "end": "2026-08-12T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 1,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-08-25-second-installment-deadline",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Second installment deadline",
+    "start": "2026-08-25T00:00:00+03:00",
+    "end": "2026-08-26T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 1,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-08-26-prophet-s-birthday",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Prophet’s Birthday",
+    "start": "2026-08-26T00:00:00+03:00",
+    "end": "2026-08-27T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 1,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-08-31-accounting-office-closed",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Accounting office closed",
+    "start": "2026-08-31T00:00:00+03:00",
+    "end": "2026-09-01T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 1,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-08-03-second-installment-payment-window",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Second installment payment window",
+    "start": "2026-08-03T00:00:00+03:00",
+    "end": "2026-08-26T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 1,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-08-23-bus-slip-distribution",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Bus slip distribution",
+    "start": "2026-08-23T00:00:00+03:00",
+    "end": "2026-08-28T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 1,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-01-newcomer-orientation-grades-4-9-g4,5,6,7,8,9",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Newcomer orientation — Grades 4–9",
+    "start": "2026-09-01T09:30:00+03:00",
+    "end": "2026-09-01T11:30:00+03:00",
+    "allDay": false,
+    "timeUnconfirmed": false,
+    "description": "Parents and students; newcomer book distribution.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-01-high-school-testing-and-university-orientation-g10,11,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "High school testing and university orientation",
+    "start": "2026-09-01T12:30:00+03:00",
+    "end": "2026-09-01T14:30:00+03:00",
+    "allDay": false,
+    "timeUnconfirmed": false,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-02-fun-day-and-orientation-g1,2,3",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Fun day and orientation",
+    "start": "2026-09-02T11:00:00+03:00",
+    "end": "2026-09-02T14:00:00+03:00",
+    "allDay": false,
+    "timeUnconfirmed": false,
+    "description": "All Grade 1 and newcomer Grades 2–3 parents and students.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-05-act-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 1",
+    "start": "2026-09-05T00:00:00+03:00",
+    "end": "2026-09-06T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-06-students-return-grades-1-5-and-12-g1,5,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Students return — Grades 1, 5 and 12",
+    "start": "2026-09-06T00:00:00+03:00",
+    "end": "2026-09-07T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        5,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-06-newcomers-return-grades-7-9-and-10-g7,9,10",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Newcomers return — Grades 7, 9 and 10",
+    "start": "2026-09-06T00:00:00+03:00",
+    "end": "2026-09-07T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        7,
+        9,
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-07-students-return-grades-2-6-8-and-11-g2,6,8,11",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Students return — Grades 2, 6, 8 and 11",
+    "start": "2026-09-07T00:00:00+03:00",
+    "end": "2026-09-08T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        2,
+        6,
+        8,
+        11
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-08-students-return-grades-3-4-7-9-and-10-g3,4,7,9,10",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Students return — Grades 3, 4, 7, 9 and 10",
+    "start": "2026-09-08T00:00:00+03:00",
+    "end": "2026-09-09T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        7,
+        9,
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-08-dish-party-grades-1-5-and-12-g1,5,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Dish party — Grades 1, 5 and 12",
+    "start": "2026-09-08T00:00:00+03:00",
+    "end": "2026-09-09T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        5,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-09-dish-party-grades-2-6-8-and-11-g2,6,8,11",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Dish party — Grades 2, 6, 8 and 11",
+    "start": "2026-09-09T00:00:00+03:00",
+    "end": "2026-09-10T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        2,
+        6,
+        8,
+        11
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-10-dish-party-grades-3-4-7-9-and-10-g3,4,7,9,10",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Dish party — Grades 3, 4, 7, 9 and 10",
+    "start": "2026-09-10T00:00:00+03:00",
+    "end": "2026-09-11T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        7,
+        9,
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-12-sat-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "SAT 1",
+    "start": "2026-09-12T00:00:00+03:00",
+    "end": "2026-09-13T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-13-survey-1",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Survey 1",
+    "start": "2026-09-13T00:00:00+03:00",
+    "end": "2026-09-14T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-17-new-cairo-international-graduation-g12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "New Cairo international graduation",
+    "start": "2026-09-17T00:00:00+03:00",
+    "end": "2026-09-18T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-19-act-2-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 2",
+    "start": "2026-09-19T00:00:00+03:00",
+    "end": "2026-09-20T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-20-football-league-starts",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Football league starts",
+    "start": "2026-09-20T00:00:00+03:00",
+    "end": "2026-09-21T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-22-homeroom",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Homeroom",
+    "start": "2026-09-22T00:00:00+03:00",
+    "end": "2026-09-23T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-23-grade-12-parent-breakfast-g12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Grade 12 parent breakfast",
+    "start": "2026-09-23T00:00:00+03:00",
+    "end": "2026-09-24T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-10-back-to-school-night",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Back to School Night",
+    "start": "2026-09-10T18:00:00+03:00",
+    "end": "2026-09-10T19:30:00+03:00",
+    "allDay": false,
+    "timeUnconfirmed": false,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-06-orientation-zero-week",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Orientation / Zero Week",
+    "start": "2026-09-06T00:00:00+03:00",
+    "end": "2026-09-11T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Students: 8:20 am–1:15 pm; teachers: 3:20 pm.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-13-regular-school-hours-begin",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Regular school hours begin",
+    "start": "2026-09-13T00:00:00+03:00",
+    "end": "2026-09-14T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "8:20 am–3:20 pm; Thursday students finish 1:40 pm, teachers 3:15 pm, as printed in the parent calendar.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 2,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-27-parent-student-and-teacher-engagement-week",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Parent, student and teacher engagement week",
+    "start": "2026-09-27T00:00:00+03:00",
+    "end": "2026-10-02T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Week of 27 September; exact session dates are not specified.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-09-27-map-language-assessment-week-g3,4,5,6,7,8,9",
+    "kind": "event",
+    "category": "Exam",
+    "title": "MAP language assessment week",
+    "start": "2026-09-27T00:00:00+03:00",
+    "end": "2026-10-02T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Week of 27 September; grade / subject times to be confirmed.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-03-sat-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "SAT 1",
+    "start": "2026-10-03T00:00:00+03:00",
+    "end": "2026-10-04T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-04-students-council-debate",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Students’ Council debate",
+    "start": "2026-10-04T00:00:00+03:00",
+    "end": "2026-10-05T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-05-child-museum-trip-g3",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Child Museum trip",
+    "start": "2026-10-05T00:00:00+03:00",
+    "end": "2026-10-06T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-05-pharaonic-village-trip-g4",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Pharaonic Village trip",
+    "start": "2026-10-05T00:00:00+03:00",
+    "end": "2026-10-06T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        4
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-06-armed-forces-day-assembly",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Armed Forces Day assembly",
+    "start": "2026-10-06T00:00:00+03:00",
+    "end": "2026-10-07T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-07-homeroom",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Homeroom",
+    "start": "2026-10-07T00:00:00+03:00",
+    "end": "2026-10-08T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-07-sitara-trip-g1",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Sitara trip",
+    "start": "2026-10-07T00:00:00+03:00",
+    "end": "2026-10-08T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-07-grand-egyptian-museum-trip-g2",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Grand Egyptian Museum trip",
+    "start": "2026-10-07T00:00:00+03:00",
+    "end": "2026-10-08T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        2
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-08-armed-forces-day-observed",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Armed Forces Day — observed",
+    "start": "2026-10-08T00:00:00+03:00",
+    "end": "2026-10-09T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-11-pyramids-trip-g8",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Pyramids trip",
+    "start": "2026-10-11T00:00:00+03:00",
+    "end": "2026-10-12T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        8
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-11-saqqara-pyramids-trip-g9",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Saqqara Pyramids trip",
+    "start": "2026-10-11T00:00:00+03:00",
+    "end": "2026-10-12T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-12-citadel-trip-g5",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Citadel trip",
+    "start": "2026-10-12T00:00:00+03:00",
+    "end": "2026-10-13T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        5
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-12-civilization-museum-trip-g6",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Civilization Museum trip",
+    "start": "2026-10-12T00:00:00+03:00",
+    "end": "2026-10-13T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        6
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-12-religious-compound-trip-g7",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Religious Compound trip",
+    "start": "2026-10-12T00:00:00+03:00",
+    "end": "2026-10-13T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        7
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-13-khan-el-khalili-trip-g11",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Khan El Khalili trip",
+    "start": "2026-10-13T00:00:00+03:00",
+    "end": "2026-10-14T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        11
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-13-historic-mosques-tour-old-cairo-g10",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Historic mosques tour — Old Cairo",
+    "start": "2026-10-13T00:00:00+03:00",
+    "end": "2026-10-14T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-13-school-pictures-grades-1-7-g1,2,3,4,5,6,7",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "School pictures — Grades 1–7",
+    "start": "2026-10-13T00:00:00+03:00",
+    "end": "2026-10-14T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-14-school-pictures-grades-8-12-g8,9,10,11,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "School pictures — Grades 8–12",
+    "start": "2026-10-14T00:00:00+03:00",
+    "end": "2026-10-15T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-15-alexandria-trip-g12",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Alexandria trip",
+    "start": "2026-10-15T00:00:00+03:00",
+    "end": "2026-10-16T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-18-breast-cancer-awareness-pink-accessory",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Breast cancer awareness — pink accessory",
+    "start": "2026-10-18T00:00:00+03:00",
+    "end": "2026-10-19T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-20-homeroom",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Homeroom",
+    "start": "2026-10-20T00:00:00+03:00",
+    "end": "2026-10-21T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-20-progress-report-1",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Progress report 1",
+    "start": "2026-10-20T00:00:00+03:00",
+    "end": "2026-10-21T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-26-parenting-session",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Parenting session",
+    "start": "2026-10-26T00:00:00+03:00",
+    "end": "2026-10-27T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-29-phase-10-welcome-party-g7,8,9,10",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Phase 10 welcome party",
+    "start": "2026-10-29T00:00:00+03:00",
+    "end": "2026-10-30T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-04-map-reading-assessment-week-g3,4,5,6,7,8,9",
+    "kind": "event",
+    "category": "Exam",
+    "title": "MAP reading assessment week",
+    "start": "2026-10-04T00:00:00+03:00",
+    "end": "2026-10-09T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-11-map-mathematics-assessment-week-g3,4,5,6,7,8,9",
+    "kind": "event",
+    "category": "Exam",
+    "title": "MAP mathematics assessment week",
+    "start": "2026-10-11T00:00:00+03:00",
+    "end": "2026-10-16T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-11-science-week-engineering-and-awareness",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Science Week — engineering and awareness",
+    "start": "2026-10-11T00:00:00+03:00",
+    "end": "2026-10-16T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-18-map-science-assessment-week-g6,7,8",
+    "kind": "event",
+    "category": "Exam",
+    "title": "MAP science assessment week",
+    "start": "2026-10-18T00:00:00+03:00",
+    "end": "2026-10-23T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        6,
+        7,
+        8
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-18-math-olympics-g1,2,3,4,5,6,7",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Math Olympics",
+    "start": "2026-10-18T00:00:00+03:00",
+    "end": "2026-10-23T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-10-25-mid-semester-assessment-week-1-5-material",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Mid-semester assessment — week 1–5 material",
+    "start": "2026-10-25T00:00:00+03:00",
+    "end": "2026-10-30T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 3,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-02-dolphina-trip-g1",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Dolphina trip",
+    "start": "2026-11-02T00:00:00+02:00",
+    "end": "2026-11-03T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-02-fagnoon-trip-g2",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Fagnoon trip",
+    "start": "2026-11-02T00:00:00+02:00",
+    "end": "2026-11-03T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        2
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-02-egyptian-schools-university-fair-g11,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Egyptian Schools university fair",
+    "start": "2026-11-02T00:00:00+02:00",
+    "end": "2026-11-03T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-03-natural-park-trip-g3",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Natural Park trip",
+    "start": "2026-11-03T00:00:00+02:00",
+    "end": "2026-11-04T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-03-ski-egypt-trip-g4",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Ski Egypt trip",
+    "start": "2026-11-03T00:00:00+02:00",
+    "end": "2026-11-04T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        4
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-07-sat-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "SAT 1",
+    "start": "2026-11-07T00:00:00+02:00",
+    "end": "2026-11-08T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-08-project-launching",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Project launching",
+    "start": "2026-11-08T00:00:00+02:00",
+    "end": "2026-11-09T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-12-talent-show-grades-1-4-g1,2,3,4",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Talent show — Grades 1–4",
+    "start": "2026-11-12T00:00:00+02:00",
+    "end": "2026-11-13T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-12-internship-day-round-1-g11,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Internship day — round 1",
+    "start": "2026-11-12T00:00:00+02:00",
+    "end": "2026-11-13T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-13-fayoum-sandboarding-magic-lake-trip-g11",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Fayoum sandboarding / Magic Lake trip",
+    "start": "2026-11-13T00:00:00+02:00",
+    "end": "2026-11-14T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        11
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-13-ismailia-trip-g5,6,7",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Ismailia trip",
+    "start": "2026-11-13T00:00:00+02:00",
+    "end": "2026-11-14T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        5,
+        6,
+        7
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-14-wadi-degla-trip-g10",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Wadi Degla trip",
+    "start": "2026-11-14T00:00:00+02:00",
+    "end": "2026-11-15T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-14-alexandria-day-trip-g8,9",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Alexandria day trip",
+    "start": "2026-11-14T00:00:00+02:00",
+    "end": "2026-11-15T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-15-kolena-mesa7araty-starts",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Kolena Mesa7araty starts",
+    "start": "2026-11-15T00:00:00+02:00",
+    "end": "2026-11-16T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-18-talent-show-grades-5-12-g5,6,7,8,9,10,11,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Talent show — Grades 5–12",
+    "start": "2026-11-18T00:00:00+02:00",
+    "end": "2026-11-19T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-18-progress-report-2",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Progress report 2",
+    "start": "2026-11-18T00:00:00+02:00",
+    "end": "2026-11-19T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-19-children-s-day-celebration-g1,2,3,4,5",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Children’s Day celebration",
+    "start": "2026-11-19T00:00:00+02:00",
+    "end": "2026-11-20T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-19-art-d-egypte-trip-g11,12",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Art D’Egypte trip",
+    "start": "2026-11-19T00:00:00+02:00",
+    "end": "2026-11-20T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-28-act-2-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 2",
+    "start": "2026-11-28T00:00:00+02:00",
+    "end": "2026-11-29T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-30-parenting-session",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Parenting session",
+    "start": "2026-11-30T00:00:00+02:00",
+    "end": "2026-12-01T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-01-mid-semester-assessment",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Mid-semester assessment",
+    "start": "2026-11-01T00:00:00+02:00",
+    "end": "2026-11-04T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-04-mid-semester-break",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Mid-semester break",
+    "start": "2026-11-04T00:00:00+02:00",
+    "end": "2026-11-08T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-08-student-focus-groups",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Student focus groups",
+    "start": "2026-11-08T00:00:00+02:00",
+    "end": "2026-11-13T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Week of 8 November; individual session times to be confirmed.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-22-spirit-week",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Spirit Week",
+    "start": "2026-11-22T00:00:00+02:00",
+    "end": "2026-11-27T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Week of 22 November. Exact activity days are not specified. Date subject to school / ministry confirmation.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": true,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-22-football-league-finals",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Football league finals",
+    "start": "2026-11-22T00:00:00+02:00",
+    "end": "2026-11-27T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Week of 22 November. Individual match days are not specified. Date subject to school / ministry confirmation.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": true,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-11-26-open-house",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Open House",
+    "start": "2026-11-26T17:00:00+02:00",
+    "end": "2026-11-26T19:30:00+02:00",
+    "allDay": false,
+    "timeUnconfirmed": false,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 4,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-01-homeroom",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Homeroom",
+    "start": "2026-12-01T00:00:00+02:00",
+    "end": "2026-12-02T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-03-arabic-language-day-show-and-exhibition-g4,5,6,7,8,9,10,11,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Arabic Language Day show and exhibition",
+    "start": "2026-12-03T00:00:00+02:00",
+    "end": "2026-12-04T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-05-sat-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "SAT 1",
+    "start": "2026-12-05T00:00:00+02:00",
+    "end": "2026-12-06T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-08-projects-due",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Projects due",
+    "start": "2026-12-08T00:00:00+02:00",
+    "end": "2026-12-09T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-10-christmas-carols-and-elementary-music-display-g1,2,3,4,5,6,7,8,9",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Christmas carols and elementary music display",
+    "start": "2026-12-10T00:00:00+02:00",
+    "end": "2026-12-11T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-12-act-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 1",
+    "start": "2026-12-12T00:00:00+02:00",
+    "end": "2026-12-13T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-14-arabic-social-studies-semester-1-assessment",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Arabic Social Studies semester 1 assessment",
+    "start": "2026-12-14T00:00:00+02:00",
+    "end": "2026-12-15T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-14-grade-1-english-semester-1-assessment-g1",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Grade 1 English semester 1 assessment",
+    "start": "2026-12-14T00:00:00+02:00",
+    "end": "2026-12-15T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-15-religion-semester-1-assessment",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Religion semester 1 assessment",
+    "start": "2026-12-15T00:00:00+02:00",
+    "end": "2026-12-16T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-16-arabic-semester-1-assessment",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Arabic semester 1 assessment",
+    "start": "2026-12-16T00:00:00+02:00",
+    "end": "2026-12-17T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-17-christmas-celebration-out-of-uniform-secret-santa",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Christmas celebration — out of uniform / Secret Santa",
+    "start": "2026-12-17T00:00:00+02:00",
+    "end": "2026-12-18T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-18-family-day-g1,2,3,4,5,6",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Family Day",
+    "start": "2026-12-18T00:00:00+02:00",
+    "end": "2026-12-19T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-06-project-zero",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Project Zero",
+    "start": "2026-12-06T00:00:00+02:00",
+    "end": "2026-12-08T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-08-project-discussions",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Project discussions",
+    "start": "2026-12-08T00:00:00+02:00",
+    "end": "2026-12-10T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-06-oral-and-practical-assessments-g3,4,5,6,7,8,9,10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Oral and practical assessments",
+    "start": "2026-12-06T00:00:00+02:00",
+    "end": "2026-12-11T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Oral: Grades 3–12. Science practical: Grades 9–12; ICT practical: Grades 10–12. Timetable to be confirmed.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2026-12-20-christmas-break",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Christmas break",
+    "start": "2026-12-20T00:00:00+02:00",
+    "end": "2027-01-03T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 5,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-01-01-new-year-s-day",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "New Year’s Day",
+    "start": "2027-01-01T00:00:00+02:00",
+    "end": "2027-01-02T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 6,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-01-05-progress-report-3-g3,4,5,6,7,8,9,10,11,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Progress report 3",
+    "start": "2027-01-05T00:00:00+02:00",
+    "end": "2027-01-06T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 6,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-01-07-coptic-christmas-day-off",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Coptic Christmas — day off",
+    "start": "2027-01-07T00:00:00+02:00",
+    "end": "2027-01-08T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 6,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-01-10-semester-1-exams-begin-g1,2,3,4,5,6,7,8,9,10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Semester 1 exams begin",
+    "start": "2027-01-10T00:00:00+02:00",
+    "end": "2027-01-11T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 6,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-01-12-international-day-dish-party-g1,2",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "International Day dish party",
+    "start": "2027-01-12T00:00:00+02:00",
+    "end": "2027-01-13T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 6,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-01-13-international-day-g1,2",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "International Day",
+    "start": "2027-01-13T00:00:00+02:00",
+    "end": "2027-01-14T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 6,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-01-19-epiphany-day",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Epiphany Day",
+    "start": "2027-01-19T00:00:00+02:00",
+    "end": "2027-01-20T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 6,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-01-24-january-revolution-day",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "January Revolution Day",
+    "start": "2027-01-24T00:00:00+02:00",
+    "end": "2027-01-25T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 6,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-01-03-semester-1-awards",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Semester 1 awards",
+    "start": "2027-01-03T00:00:00+02:00",
+    "end": "2027-01-07T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 6,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-01-24-midyear-vacation",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Midyear vacation",
+    "start": "2027-01-24T00:00:00+02:00",
+    "end": "2027-01-31T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 6,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-07-project-fair",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Project fair",
+    "start": "2027-02-07T00:00:00+02:00",
+    "end": "2027-02-08T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-08-ramadan-begins",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Ramadan begins",
+    "start": "2027-02-08T00:00:00+02:00",
+    "end": "2027-02-09T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-09-ramadan-hours-begin",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Ramadan hours begin",
+    "start": "2027-02-09T00:00:00+02:00",
+    "end": "2027-02-10T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-09-ramadan-vibes-extended-lines-out-of-uniform",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Ramadan vibes — extended lines / out of uniform",
+    "start": "2027-02-09T00:00:00+02:00",
+    "end": "2027-02-10T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-09-project-fair-walk-for-students",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Project fair walk for students",
+    "start": "2027-02-09T00:00:00+02:00",
+    "end": "2027-02-10T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-10-homeroom-honor-celebration-g5,6,7",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Homeroom honor celebration",
+    "start": "2027-02-10T00:00:00+02:00",
+    "end": "2027-02-11T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        5,
+        6,
+        7
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-11-homeroom-honor-celebration-g8,9",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Homeroom honor celebration",
+    "start": "2027-02-11T00:00:00+02:00",
+    "end": "2027-02-12T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-13-act-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 1",
+    "start": "2027-02-13T00:00:00+02:00",
+    "end": "2027-02-14T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-14-homeroom-honor-celebration-g10,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Homeroom honor celebration",
+    "start": "2027-02-14T00:00:00+02:00",
+    "end": "2027-02-15T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-14-et3am-g6,7",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Et3am",
+    "start": "2027-02-14T00:00:00+02:00",
+    "end": "2027-02-15T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        6,
+        7
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-15-elementary-iftar-g1,2,3,4,5,6",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Elementary iftar",
+    "start": "2027-02-15T00:00:00+02:00",
+    "end": "2027-02-16T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-15-et3am-g8,9",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Et3am",
+    "start": "2027-02-15T00:00:00+02:00",
+    "end": "2027-02-16T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-16-iftar-g7,8,9,10,11,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Iftar",
+    "start": "2027-02-16T00:00:00+02:00",
+    "end": "2027-02-17T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-16-et3am-g4,5",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Et3am",
+    "start": "2027-02-16T00:00:00+02:00",
+    "end": "2027-02-17T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        4,
+        5
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-17-et3am-g10",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Et3am",
+    "start": "2027-02-17T00:00:00+02:00",
+    "end": "2027-02-18T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-20-act-2-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 2",
+    "start": "2027-02-20T00:00:00+02:00",
+    "end": "2027-02-21T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-21-english-festival-opening-ceremony",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "English Festival opening ceremony",
+    "start": "2027-02-21T00:00:00+02:00",
+    "end": "2027-02-22T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-21-et3am-g11",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Et3am",
+    "start": "2027-02-21T00:00:00+02:00",
+    "end": "2027-02-22T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        11
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-22-et3am-g12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Et3am",
+    "start": "2027-02-22T00:00:00+02:00",
+    "end": "2027-02-23T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-25-poetry-slam-and-english-festival-closing",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Poetry Slam and English Festival closing",
+    "start": "2027-02-25T00:00:00+02:00",
+    "end": "2027-02-26T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-01-ramadan-decorations",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Ramadan decorations",
+    "start": "2027-02-01T00:00:00+02:00",
+    "end": "2027-02-05T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-10-semester-1-reports-released",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Semester 1 reports released",
+    "start": "2027-02-10T00:00:00+02:00",
+    "end": "2027-02-12T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Shown across 10–11 February; includes skills, MUN, MAP and Honor Roll.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-21-english-festival",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "English Festival",
+    "start": "2027-02-21T00:00:00+02:00",
+    "end": "2027-02-26T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-23-english-spelling-bee-g1,2",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "English Spelling Bee",
+    "start": "2027-02-23T00:00:00+02:00",
+    "end": "2027-02-24T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Starts 09:30 Cairo time. End time is not stated in the parent calendar.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-23-english-spelling-bee-g3,4",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "English Spelling Bee",
+    "start": "2027-02-23T00:00:00+02:00",
+    "end": "2027-02-24T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Starts 11:00 Cairo time. End time is not stated in the parent calendar.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-23-english-spelling-bee-g5,6",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "English Spelling Bee",
+    "start": "2027-02-23T00:00:00+02:00",
+    "end": "2027-02-24T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Starts 13:00 Cairo time. End time is not stated in the parent calendar.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        5,
+        6
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-24-english-spelling-bee-g7,8",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "English Spelling Bee",
+    "start": "2027-02-24T00:00:00+02:00",
+    "end": "2027-02-25T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Starts 09:30 Cairo time. End time is not stated in the parent calendar.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        7,
+        8
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-02-24-english-spelling-bee-g9,10",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "English Spelling Bee",
+    "start": "2027-02-24T00:00:00+02:00",
+    "end": "2027-02-25T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Starts 11:30 Cairo time. End time is not stated in the parent calendar.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 7,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        9,
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-04-foster-iftar",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Foster iftar",
+    "start": "2027-03-04T00:00:00+02:00",
+    "end": "2027-03-05T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-06-sat-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "SAT 1",
+    "start": "2027-03-06T00:00:00+02:00",
+    "end": "2027-03-07T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "The PDF prints SAT 1 on both 6 and 13 March. Confirm your testing date with school.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": true,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-13-sat-1-second-printed-date-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "SAT 1 — second printed date",
+    "start": "2027-03-13T00:00:00+02:00",
+    "end": "2027-03-14T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "The PDF prints SAT 1 on both 6 and 13 March. Confirm your testing date with school.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": true,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-16-progress-report-1-and-skills-comments-g1,2",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Progress report 1 and skills comments",
+    "start": "2027-03-16T00:00:00+02:00",
+    "end": "2027-03-17T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-16-100-days-of-school-parade-and-contest",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "100 Days of School — parade and contest",
+    "start": "2027-03-16T00:00:00+02:00",
+    "end": "2027-03-17T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-17-projects-due",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Projects due",
+    "start": "2027-03-17T00:00:00+02:00",
+    "end": "2027-03-18T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-18-career-day-g10",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Career Day",
+    "start": "2027-03-18T00:00:00+02:00",
+    "end": "2027-03-19T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-21-science-fair-starts-in-classes",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Science fair starts in classes",
+    "start": "2027-03-21T00:00:00+02:00",
+    "end": "2027-03-22T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-09-eid-el-fitr-holiday",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Eid El Fitr holiday",
+    "start": "2027-03-09T00:00:00+02:00",
+    "end": "2027-03-14T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break. Date subject to school / ministry confirmation.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": true,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-15-project-zero",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Project Zero",
+    "start": "2027-03-15T00:00:00+02:00",
+    "end": "2027-03-17T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-17-project-discussions",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Project discussions",
+    "start": "2027-03-17T00:00:00+02:00",
+    "end": "2027-03-19T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-21-mid-semester-assessment",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Mid-semester assessment",
+    "start": "2027-03-21T00:00:00+02:00",
+    "end": "2027-03-26T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-28-mid-semester-assessment",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Mid-semester assessment",
+    "start": "2027-03-28T00:00:00+02:00",
+    "end": "2027-03-31T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-31-white-desert-overnight-trip-g8,9",
+    "kind": "event",
+    "category": "Trip",
+    "title": "White Desert overnight trip",
+    "start": "2027-03-31T00:00:00+02:00",
+    "end": "2027-04-01T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Departure is shown on 31 March. Return date and times are not specified; confirm with school.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-03-31-mid-semester-2-break",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Mid-semester 2 break",
+    "start": "2027-03-31T00:00:00+02:00",
+    "end": "2027-04-04T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 8,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-01-orphan-s-day",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Orphan’s Day",
+    "start": "2027-04-01T00:00:00+02:00",
+    "end": "2027-04-02T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-03-act-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 1",
+    "start": "2027-04-03T00:00:00+02:00",
+    "end": "2027-04-04T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-06-nursing-home-visit-g7,10",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Nursing home visit",
+    "start": "2027-04-06T00:00:00+02:00",
+    "end": "2027-04-07T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        7,
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-07-international-day",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "International Day",
+    "start": "2027-04-07T00:00:00+02:00",
+    "end": "2027-04-08T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-09-carnival",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Carnival",
+    "start": "2027-04-09T00:00:00+02:00",
+    "end": "2027-04-10T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-10-act-2-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 2",
+    "start": "2027-04-10T00:00:00+02:00",
+    "end": "2027-04-11T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-12-school-play",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "School play",
+    "start": "2027-04-12T00:00:00+02:00",
+    "end": "2027-04-13T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-13-monzoo-trip-g1",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Monzoo trip",
+    "start": "2027-04-13T00:00:00+02:00",
+    "end": "2027-04-14T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-13-le-campo-trip-g2",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Le Campo trip",
+    "start": "2027-04-13T00:00:00+02:00",
+    "end": "2027-04-14T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        2
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-13-nutty-scientist-trip-g3",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Nutty Scientist trip",
+    "start": "2027-04-13T00:00:00+02:00",
+    "end": "2027-04-14T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-14-progress-report-2",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Progress report 2",
+    "start": "2027-04-14T00:00:00+02:00",
+    "end": "2027-04-15T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-15-internship-day-round-2-g11,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Internship day — round 2",
+    "start": "2027-04-15T00:00:00+02:00",
+    "end": "2027-04-16T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-22-open-house-and-art-expo",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Open House and Art Expo",
+    "start": "2027-04-22T00:00:00+02:00",
+    "end": "2027-04-23T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-22-bonus-project-due-g11,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Bonus project due",
+    "start": "2027-04-22T00:00:00+02:00",
+    "end": "2027-04-23T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-23-sokhna-day-trip-g6,7",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Sokhna day trip",
+    "start": "2027-04-23T00:00:00+02:00",
+    "end": "2027-04-24T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        6,
+        7
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-25-palm-sunday",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Palm Sunday",
+    "start": "2027-04-25T00:00:00+02:00",
+    "end": "2027-04-26T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-26-homeroom",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Homeroom",
+    "start": "2027-04-26T00:00:00+02:00",
+    "end": "2027-04-27T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-26-semester-2-awards-g12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Semester 2 awards",
+    "start": "2027-04-26T00:00:00+02:00",
+    "end": "2027-04-27T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-28-senior-march-g12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Senior March",
+    "start": "2027-04-28T00:00:00+02:00",
+    "end": "2027-04-29T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-29-maundy-thursday",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Maundy Thursday",
+    "start": "2027-04-29T00:00:00+02:00",
+    "end": "2027-04-30T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-29-revision-by-sign-up-g12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Revision by sign-up",
+    "start": "2027-04-29T00:00:00+02:00",
+    "end": "2027-04-30T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-30-good-friday",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Good Friday",
+    "start": "2027-04-30T00:00:00+02:00",
+    "end": "2027-05-01T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-04-map-language-assessment-week-g3,4,5,6,7,8,9",
+    "kind": "event",
+    "category": "Exam",
+    "title": "MAP language assessment week",
+    "start": "2027-04-04T00:00:00+02:00",
+    "end": "2027-04-09T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-11-map-reading-assessment-week-g3,4,5,6,7,8,9",
+    "kind": "event",
+    "category": "Exam",
+    "title": "MAP reading assessment week",
+    "start": "2027-04-11T00:00:00+02:00",
+    "end": "2027-04-16T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-18-map-mathematics-assessment-week-g3,4,5,6,7,8,9",
+    "kind": "event",
+    "category": "Exam",
+    "title": "MAP mathematics assessment week",
+    "start": "2027-04-18T00:00:00+02:00",
+    "end": "2027-04-23T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-25-map-science-assessment-week-g6,7,8",
+    "kind": "event",
+    "category": "Exam",
+    "title": "MAP science assessment week",
+    "start": "2027-04-25T00:00:00+02:00",
+    "end": "2027-04-30T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        6,
+        7,
+        8
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-25-oral-and-practical-assessments-g12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Oral and practical assessments",
+    "start": "2027-04-25T00:00:00+02:00",
+    "end": "2027-04-30T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-04-international-day-homerooms",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "International Day homerooms",
+    "start": "2027-04-04T00:00:00+02:00",
+    "end": "2027-04-07T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-16-hurghada-overnight-trip-g10",
+    "kind": "event",
+    "category": "Trip",
+    "title": "Hurghada overnight trip",
+    "start": "2027-04-16T00:00:00+02:00",
+    "end": "2027-04-18T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-16-eais-campfire-g4,5",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "EAIS campfire",
+    "start": "2027-04-16T00:00:00+02:00",
+    "end": "2027-04-18T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        4,
+        5
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-18-open-house-reservations",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Open House reservations",
+    "start": "2027-04-18T00:00:00+02:00",
+    "end": "2027-04-19T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-04-27-languages-display-g4,5",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Languages display",
+    "start": "2027-04-27T00:00:00+02:00",
+    "end": "2027-04-28T00:00:00+02:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Grade 4: 9:00–10:30 am; Grade 5: 11:00 am–12:00 pm Cairo time.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 9,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        4,
+        5
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-01-holy-saturday",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Holy Saturday",
+    "start": "2027-05-01T00:00:00+03:00",
+    "end": "2027-05-02T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-01-labor-day",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Labor Day",
+    "start": "2027-05-01T00:00:00+03:00",
+    "end": "2027-05-02T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-01-sat-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "SAT 1",
+    "start": "2027-05-01T00:00:00+03:00",
+    "end": "2027-05-02T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-03-sham-el-nessim",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Sham El Nessim",
+    "start": "2027-05-03T00:00:00+03:00",
+    "end": "2027-05-04T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-09-grade-12-exams-begin-g12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Grade 12 exams begin",
+    "start": "2027-05-09T00:00:00+03:00",
+    "end": "2027-05-10T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-11-homeroom",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Homeroom",
+    "start": "2027-05-11T00:00:00+03:00",
+    "end": "2027-05-12T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-25-progress-report-3-g3,4,5,6,7,8,9,10,11,12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Progress report 3",
+    "start": "2027-05-25T00:00:00+03:00",
+    "end": "2027-05-26T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-27-class-display-g3",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Class display",
+    "start": "2027-05-27T00:00:00+03:00",
+    "end": "2027-05-28T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-02-spring-break",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Spring break",
+    "start": "2027-05-02T00:00:00+03:00",
+    "end": "2027-05-09T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-16-eid-el-adha-break",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Eid El Adha break",
+    "start": "2027-05-16T00:00:00+03:00",
+    "end": "2027-05-23T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break. Date subject to school / ministry confirmation.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": true,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-23-career-week-g1,2,3,4",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Career week",
+    "start": "2027-05-23T00:00:00+03:00",
+    "end": "2027-05-28T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-28-eais-campfire-g12",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "EAIS campfire",
+    "start": "2027-05-28T00:00:00+03:00",
+    "end": "2027-05-30T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-12-science-fair-g4,5,6,7",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Science Fair",
+    "start": "2027-05-12T09:30:00+03:00",
+    "end": "2027-05-12T10:30:00+03:00",
+    "allDay": false,
+    "timeUnconfirmed": false,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-12-science-fair-g8,9,10",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Science Fair",
+    "start": "2027-05-12T14:00:00+03:00",
+    "end": "2027-05-12T14:45:00+03:00",
+    "allDay": false,
+    "timeUnconfirmed": false,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        8,
+        9,
+        10
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-26-music-display-band-and-choir-g6,7,8,9",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Music display, band and choir",
+    "start": "2027-05-26T00:00:00+03:00",
+    "end": "2027-05-27T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Grades 6–7: 9:00–10:00 am; Grades 8–9: 10:30–11:30 am; parents: 12:30 pm.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 10,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-30-arabic-exam",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Arabic exam",
+    "start": "2027-05-30T00:00:00+03:00",
+    "end": "2027-05-31T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-31-religion-exam",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Religion exam",
+    "start": "2027-05-31T00:00:00+03:00",
+    "end": "2027-06-01T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-01-arabic-social-studies-exam",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Arabic Social Studies exam",
+    "start": "2027-06-01T00:00:00+03:00",
+    "end": "2027-06-02T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-02-homeroom-and-semester-2-awards-g5,6,7",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Homeroom and semester 2 awards",
+    "start": "2027-06-02T00:00:00+03:00",
+    "end": "2027-06-03T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        5,
+        6,
+        7
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-02-social-studies-display-g4,5",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Social Studies display",
+    "start": "2027-06-02T00:00:00+03:00",
+    "end": "2027-06-03T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        4,
+        5
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-03-homeroom-and-semester-2-awards-g8,9",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Homeroom and semester 2 awards",
+    "start": "2027-06-03T00:00:00+03:00",
+    "end": "2027-06-04T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        8,
+        9
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-03-class-display-g1,2",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Class display",
+    "start": "2027-06-03T00:00:00+03:00",
+    "end": "2027-06-04T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-05-sat-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "SAT 1",
+    "start": "2027-06-05T00:00:00+03:00",
+    "end": "2027-06-06T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-08-online-revision-g4,5,6,7,8,9,10,11",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Online revision",
+    "start": "2027-06-08T00:00:00+03:00",
+    "end": "2027-06-09T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-08-end-of-year-trips-g1,2,3",
+    "kind": "event",
+    "category": "Trip",
+    "title": "End-of-year trips",
+    "start": "2027-06-08T00:00:00+03:00",
+    "end": "2027-06-09T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-09-exams-begin-grades-4-11-g4,5,6,7,8,9,10,11",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Exams begin — Grades 4–11",
+    "start": "2027-06-09T00:00:00+03:00",
+    "end": "2027-06-10T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-12-act-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 1",
+    "start": "2027-06-12T00:00:00+03:00",
+    "end": "2027-06-13T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-13-grade-3-exams-begin-g3",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Grade 3 exams begin",
+    "start": "2027-06-13T00:00:00+03:00",
+    "end": "2027-06-14T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-14-grades-1-2-exams-begin-g1,2",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Grades 1–2 exams begin",
+    "start": "2027-06-14T00:00:00+03:00",
+    "end": "2027-06-15T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-17-last-day-and-celebration-g1,2,3",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Last day and celebration",
+    "start": "2027-06-17T00:00:00+03:00",
+    "end": "2027-06-18T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        1,
+        2,
+        3
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-19-act-2-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 2",
+    "start": "2027-06-19T00:00:00+03:00",
+    "end": "2027-06-20T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-20-summer-camp-starts",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Summer camp starts",
+    "start": "2027-06-20T00:00:00+03:00",
+    "end": "2027-06-21T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-30-last-day-for-teachers",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Last day for teachers",
+    "start": "2027-06-30T00:00:00+03:00",
+    "end": "2027-07-01T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-06-islamic-new-year",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Islamic New Year",
+    "start": "2027-06-06T00:00:00+03:00",
+    "end": "2027-06-07T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break. Date subject to school / ministry confirmation.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": true,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-05-30-oral-and-practical-assessments-g3,4,5,6,7,8,9,10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Oral and practical assessments",
+    "start": "2027-05-30T00:00:00+03:00",
+    "end": "2027-06-04T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Oral: Grades 3–11. Science practical: Grades 9–12; ICT practical: Grades 10–11. Exact timetable to be confirmed.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-06-06-revision-special-schedule",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Revision — special schedule",
+    "start": "2027-06-06T00:00:00+03:00",
+    "end": "2027-06-08T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 11,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-07-01-revolution-day",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Revolution Day",
+    "start": "2027-07-01T00:00:00+03:00",
+    "end": "2027-07-02T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 12,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-07-04-re-exams",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Re-exams",
+    "start": "2027-07-04T00:00:00+03:00",
+    "end": "2027-07-05T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 12,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-07-05-re-exams",
+    "kind": "event",
+    "category": "Exam",
+    "title": "Re-exams",
+    "start": "2027-07-05T00:00:00+03:00",
+    "end": "2027-07-06T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 12,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-07-07-last-day-for-administration",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Last day for administration",
+    "start": "2027-07-07T00:00:00+03:00",
+    "end": "2027-07-08T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 12,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-07-07-new-reports-released",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "New reports released",
+    "start": "2027-07-07T00:00:00+03:00",
+    "end": "2027-07-08T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 12,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-07-08-summer-starts",
+    "kind": "event",
+    "category": "Holiday",
+    "title": "Summer starts",
+    "start": "2027-07-08T00:00:00+03:00",
+    "end": "2027-07-09T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": false,
+    "description": "School calendar holiday / break.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 12,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-07-17-act-1-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 1",
+    "start": "2027-07-17T00:00:00+03:00",
+    "end": "2027-07-18T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 12,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-07-24-act-2-g10,11,12",
+    "kind": "event",
+    "category": "Exam",
+    "title": "ACT 2",
+    "start": "2027-07-24T00:00:00+03:00",
+    "end": "2027-07-25T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Assessment date or period; the school will confirm the subject timetable.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 12,
+    "tentative": false,
+    "audience": {
+      "is_global": false,
+      "target_grades": [
+        10,
+        11,
+        12
+      ],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  },
+  {
+    "id": "eais-2627-2027-08-15-administration-returns",
+    "kind": "event",
+    "category": "Class Event",
+    "title": "Administration returns",
+    "start": "2027-08-15T00:00:00+03:00",
+    "end": "2027-08-16T00:00:00+03:00",
+    "allDay": true,
+    "timeUnconfirmed": true,
+    "description": "Listed in the EAIS parent calendar. The school will confirm event arrangements and times.",
+    "stage": "Published",
+    "source": "EAIS parent calendar 2026–27",
+    "sourcePage": 12,
+    "tentative": false,
+    "audience": {
+      "is_global": true,
+      "target_grades": [],
+      "target_classes": [],
+      "excluded_classes": []
+    }
+  }
+]

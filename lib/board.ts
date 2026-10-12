@@ -1,5 +1,6 @@
+import parentCalendar from './school-calendar-data.json';
 export type Audience={is_global:boolean;target_grades:number[];target_classes:string[];excluded_classes:string[]};
-export type Item={id:string;kind:string;title:string;category?:string;description?:string;start?:string;end?:string;cost?:number;deadline?:string;interestDeadline?:string;transport?:string;food?:string;notes?:string;room?:string;duration?:number;audience:Audience;options?:string[];multi?:boolean;status?:string;sample?:boolean;stage?:string;owner?:string;author?:string;menu_date?:string;verified?:boolean};
+export type Item={id:string;kind:string;title:string;category?:string;description?:string;start?:string;end?:string;cost?:number;deadline?:string;interestDeadline?:string;transport?:string;food?:string;notes?:string;room?:string;duration?:number;audience:Audience;options?:string[];multi?:boolean;status?:string;sample?:boolean;stage?:string;owner?:string;author?:string;menu_date?:string;verified?:boolean;allDay?:boolean;timeUnconfirmed?:boolean;source?:string;sourcePage?:number;tentative?:boolean};
 export const globalAudience:Audience={is_global:true,target_grades:[],target_classes:[],excluded_classes:[]};
 export function visible(a:Audience,g:number,c:string){return (a.is_global||a.target_grades.includes(g)||a.target_classes.includes(c))&&!a.excluded_classes.includes(c)}
 export const seed:Item[]=[
@@ -15,3 +16,5 @@ export const seed:Item[]=[
 {id:'idea-2',kind:'idea',title:'A student-led charity sports tournament',status:'Approved',audience:globalAudience,sample:true},
 {id:'menu',kind:'menu',title:'Today’s menu',description:JSON.stringify([{name:'Grilled chicken wrap',price:65,tags:'High protein'},{name:'Cheese panini',price:45,tags:'Vegetarian · Dairy'},{name:'Fresh fruit cup',price:30,tags:'Vegan'},{name:'Water',price:10,tags:'500 ml'}]),audience:globalAudience,sample:true}
 ];
+
+export const schoolCalendar=parentCalendar as Item[];
