@@ -1,5 +1,5 @@
 'use client';
-import {useEffect,useRef,useState,type ReactNode} from 'react';
+import {useEffect,useLayoutEffect,useRef,useState,type ReactNode} from 'react';
 import {VoiceRecorder} from './VoiceRecorder';
 import {Camera,FileText,Image,Paperclip,Send,Smile,X} from 'lucide-react';
 
@@ -15,6 +15,8 @@ export function ChatComposer({children,hasContent,disabled=false,busy=false,onEm
  const [voiceActive,setVoiceActive]=useState(false);const [panel,setPanel]=useState<'emoji'|'attachments'|null>(null),frame=useRef<HTMLDivElement>(null),emojiButton=useRef<HTMLButtonElement>(null),attachButton=useRef<HTMLButtonElement>(null);
  useEffect(()=>{if(!panel)return;const close=(e:Event)=>{if(e.type==='keydown'&&(e as KeyboardEvent).key==='Escape'){setPanel(null);(panel==='emoji'?emojiButton:attachButton).current?.focus()}else if(e.type==='pointerdown'&&!frame.current?.contains(e.target as Node))setPanel(null)};document.addEventListener('pointerdown',close);document.addEventListener('keydown',close);return()=>{document.removeEventListener('pointerdown',close);document.removeEventListener('keydown',close)}},[panel]);
  useEffect(()=>{if(disabled)setPanel(null)},[disabled]);
+ useLayoutEffect(()=>{const input=frame.current?.querySelector('textarea');if(!input||voiceActive)return;const history=frame.current?.closest('.conversation,.demo-main')?.querySelector<HTMLElement>('.message-history,.demo-messages'),atBottom=history&&history.scrollHeight-history.scrollTop-history.clientHeight<100;input.style.height='44px';input.style.height=Math.min(128,Math.max(44,input.scrollHeight))+'px';if(atBottom)history.scrollTop=history.scrollHeight},[children,voiceActive]);
+ useEffect(()=>{const input=frame.current?.querySelector('textarea');if(!input)return;const resize=()=>{input.style.height='44px';input.style.height=Math.min(128,Math.max(44,input.scrollHeight))+'px'};window.addEventListener('resize',resize);return()=>window.removeEventListener('resize',resize)},[]);
  const choose=(kind:ChatFileKind)=>{setPanel(null);onPick?.(kind)};
  return <div ref={frame} className={'chat-compose '+(voiceActive?'voice-active':'')}>
   {panel==='emoji'&&<div className="emoji-picker" aria-label="Choose an emoji">{['😊','👍','🙏','🎉','✅','❤️','🤔','👋'].map(emoji=><button type="button" key={emoji} aria-label={'Insert '+emoji} onClick={()=>{onEmoji(emoji);setPanel(null);frame.current?.querySelector('textarea')?.focus()}}>{emoji}</button>)}<button className="emoji-close" type="button" aria-label={demo?'Close demo emoji picker':'Close emoji picker'} onClick={()=>{setPanel(null);emojiButton.current?.focus()}}><X size={16}/></button></div>}
