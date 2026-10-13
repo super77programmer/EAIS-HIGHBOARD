@@ -1,3 +1,4 @@
+import {appearanceBootstrap} from '@/lib/appearance';
 import {ConnectionStatus} from '@/components/ConnectionStatus';
 import type { Metadata } from "next";
 import "./light.css";
@@ -16,6 +17,8 @@ import "./messaging.css";
 import "./calendar.css";
 import "./desktop.css";
 import "./refinements.css";
+import "./premium.css";
+import "./dark-theme.css";
 
 export const metadata: Metadata = {
   title: "EAIS High Board | Student Life",
@@ -32,7 +35,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head><meta name="theme-color" content="#f8fafc"/><script dangerouslySetInnerHTML={{__html:appearanceBootstrap}}/></head>
       <body className="antialiased"><ConnectionStatus/>{children}</body>
     </html>
   );

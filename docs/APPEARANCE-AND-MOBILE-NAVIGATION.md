@@ -1,0 +1,13 @@
+# Appearance and mobile navigation — 13 October 2026
+
+The owner chose to refine the current warm school app, keep Home fixed centrally on mobile and default appearance to the device setting. Future updates begin with feedback, requested additions/removals and suggested priorities.
+
+Mobile navigation is a floating five-item pill with a moving active-page surface and a circular active Home icon. Students see Calendar, Messages, Home, Voice and Canteen. Teachers/staff see Calendar, Messages, Home, Reports and Assessments. The desktop rail retains its original order. The mobile DOM follows the visible order after hydration for keyboard navigation. Teacher/council/privacy permissions are unchanged. Off-dock pages such as Admin do not falsely highlight another route. Full-screen messaging continues to offer Back and Home.
+
+The global header includes an accessible native appearance selector: System, Light or Dark. System follows live device changes; manual overrides persist on this browser and synchronize across tabs. A small static head script applies appearance before app surfaces paint to reduce theme flashes. Storage failures fall back safely; manual choices still work for the current visit. Appearance is a local device preference, not a school-account field.
+
+Dark styling covers all imported app stylesheets, including calendar, messaging, voice, reports, planner, dialogs, errors, onboarding and staff publishing. The generator derives contextual text/surface/border overrides from the active CSS while preserving the original light palette. Semantic overrides define contrast pairs for important controls and custom messenger tokens. Run `node scripts/generate-dark-theme.mjs` when changing imported stylesheets. Photographs are untouched; the monochrome school logo receives a dark-mode treatment.
+
+Widgets use consistent corners, restrained shadows and shorter focus/press feedback. The dock uses CSS blur only on its compact surface, with solid fallbacks and reduced-transparency support. Motion respects reduced-motion settings and adds no animation dependency or new API requests. Content and toasts clear the floating dock and phone safe areas. Actual performance gains have not been measured.
+
+Automated validation covers theme restoration before mount, live system/manual changes, persistence, cross-tab updates, listener cleanup, central Home and role-specific navigation, desktop order and theme coverage. Existing application suites and the production build remain required. Real-device pixel rendering, native select presentation and gesture feel are not verified in this managed environment.
