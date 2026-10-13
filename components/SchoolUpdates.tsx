@@ -1,4 +1,5 @@
 'use client';
+import {readJSON} from '@/lib/http';
 import {useEffect,useRef,useState} from 'react';
 import {ChevronDown,Megaphone,Pin,Search} from 'lucide-react';
 import {communityFetch} from '@/lib/community-client';
@@ -13,7 +14,7 @@ export function SchoolUpdates({items=EMPTY,profileKey,loading=false,limit=3}:{it
  useEffect(()=>{
   let live=true;
   try{const stored=JSON.parse(localStorage.getItem(storageKey)||'{}');const valid=stored&&typeof stored==='object'&&!Array.isArray(stored)?stored:{};setSeen(valid);setPrioritySeen(valid)}catch{setSeen({});setPrioritySeen({})}
-  async function load(){const request=++epoch.current;try{const r=await communityFetch('/api/community');if(!r.ok)throw Error('School updates could not refresh.');const data=await r.json() as {announcements?:SchoolUpdate[]};if(live&&request===epoch.current){setCommunity(data.announcements||[]);setError('');setReady(true)}}catch{if(live&&request===epoch.current){setError('School updates could not refresh.');setReady(true)}}}
+  async function load(){const request=++epoch.current;try{const r=await communityFetch('/api/community');if(!r.ok)throw Error('School updates could not refresh.');const data=await readJSON(r) as {announcements?:SchoolUpdate[]};if(live&&request===epoch.current){setCommunity(data.announcements||[]);setError('');setReady(true)}}catch{if(live&&request===epoch.current){setError('School updates could not refresh.');setReady(true)}}}
   const refresh=()=>{setCommunity([]);setReady(false);load()};
   load();const timer=setInterval(()=>{if(!document.hidden)load()},30000);
   window.addEventListener('hb-inbox-updated',refresh);window.addEventListener('hb-board-updated',load);

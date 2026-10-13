@@ -1,4 +1,5 @@
 'use client';
+import {readJSON} from '@/lib/http';
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { Star, Shield, Check, Users } from 'lucide-react';
 import { useMotion } from '@/lib/motion';
@@ -65,7 +66,7 @@ export function ProfileSetup({profile,onSave}:{profile:Profile|null;onSave:(prof
  const [focus,setFocus]=useState<HomeFocus>(()=>normalizeHomeFocus(profile?.home_focus));
  const focusTouched=useRef(false);
  const heading=useRef<HTMLHeadingElement>(null);
- const refresh=useCallback(async()=>{try{const r=await communityFetch('/api/community',true);if(!r.ok)throw Error('School account status is temporarily unavailable.');const account=await r.json() as any;if(account.person){try{const p=await fetch('/api/planner',{signal:AbortSignal.timeout(10000)});const preferences:any=await p.json();if(p.ok&&preferences.homeFocus&&!focusTouched.current)setFocus(normalizeHomeFocus(preferences.homeFocus))}catch{}}return account}catch(e){setAccountError((e as Error).message);return null}},[]);
+ const refresh=useCallback(async()=>{try{const r=await communityFetch('/api/community',true);if(!r.ok)throw Error('School account status is temporarily unavailable.');const account=await readJSON(r) as any;if(account.person){try{const p=await fetch('/api/planner',{signal:AbortSignal.timeout(10000)});const preferences:any=await readJSON(p);if(p.ok&&preferences.homeFocus&&!focusTouched.current)setFocus(normalizeHomeFocus(preferences.homeFocus))}catch{}}return account}catch(e){setAccountError((e as Error).message);return null}},[]);
  useEffect(()=>{let live=true;refresh().then(d=>{if(!live||!d)return;setAccount(d);if(d.person){if(!profile?.nickname)setName(d.person.name||'');const cls=d.person.class_name;if(/^([1-9]|1[0-2])[A-Z]$/.test(cls)){setGrade(Number(cls.slice(0,-1)));setSection(cls.slice(-1))}}});return()=>{live=false}},[refresh]);
  useEffect(()=>{heading.current?.focus({preventScroll:true})},[step]);
  function save(){onSave({student_id:profile?.student_id||'anon_'+crypto.randomUUID(),grade,class_section:grade+section,nickname:name.trim(),onboarding_version:2,home_focus:focus,...(account?.person?.email?{school_email:account.person.email}:profile?.school_email?{school_email:profile.school_email}:{})})}

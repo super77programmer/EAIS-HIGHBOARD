@@ -15,6 +15,7 @@ import "./school-life.css";
 import "./messaging.css";
 import "./calendar.css";
 import "./desktop.css";
+import "./refinements.css";
 
 export const metadata: Metadata = {
   title: "EAIS High Board | Student Life",

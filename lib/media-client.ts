@@ -1,9 +1,10 @@
+import {readJSON} from './http';
 export async function uploadMedia(file:File,thread:string,onProgress:(n:number)=>void,signal?:AbortSignal){
  async function request(url:string,body:BodyInit,type='application/json',cancellable=true){
   if(cancellable)signal?.throwIfAborted();
   const timeout=AbortSignal.timeout(120000);
   const r=await fetch(url,{method:'POST',headers:{'Content-Type':type},body,signal:cancellable&&signal?AbortSignal.any([signal,timeout]):timeout});
-  const j:any=await r.json();if(!r.ok)throw Error(j.error||'Upload failed.');return j;
+  const j:any=await readJSON(r);if(!r.ok)throw Error(j.error||'Upload failed.');return j;
  }
  const session=await request('/api/media-upload?action=begin',JSON.stringify({name:file.name,mime:file.type,size:file.size,thread}));
  const base='/api/media-upload?id='+encodeURIComponent(session.id);

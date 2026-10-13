@@ -1,8 +1,9 @@
 'use client';
+import {readJSON} from '@/lib/http';
 import {useCallback,useEffect,useRef,useState} from 'react';
 type Contact={id:string;name:string;role:string;email?:string};
 type Question={id:string;contact?:string;trip?:string;name?:string;class_name?:string;body:string;answer:string;created:number};
-async function request(url:string,body?:object){const r=await fetch(url,{cache:'no-store',...(body?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}:{}),signal:AbortSignal.timeout(15000)}),j=await r.json() as {error?:string;contacts:Contact[];candidates:Contact[];questions:Question[];canAsk:boolean};if(!r.ok)throw Error(j.error||'Unable to load trip questions.');return j}
+async function request(url:string,body?:object){const r=await fetch(url,{cache:'no-store',...(body?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}:{}),signal:AbortSignal.timeout(15000)}),j=await readJSON(r) as {error?:string;contacts:Contact[];candidates:Contact[];questions:Question[];canAsk:boolean};if(!r.ok)throw Error(j.error||'Unable to load trip questions.');return j}
 export function TripQuestions({trip,onSignIn}:{trip:string;onSignIn:()=>void}){
  const [data,setData]=useState<{contacts:Contact[];questions:Question[];canAsk:boolean}|null>(null),[contact,setContact]=useState(''),[body,setBody]=useState(''),[error,setError]=useState(''),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false),[signedOut,setSignedOut]=useState(false);
  const generation=useRef(0);

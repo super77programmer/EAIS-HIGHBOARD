@@ -1,5 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),ts=require('typescript'),Module=require('node:module');
-const moduleUnderTest=new Module(__filename);moduleUnderTest._compile(ts.transpileModule(fs.readFileSync('lib/media-client.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,__filename);
+const moduleUnderTest=new Module(__filename);const httpTest=new Module(__filename);httpTest._compile(ts.transpileModule(fs.readFileSync('lib/http.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,__filename);const normalRequire=moduleUnderTest.require.bind(moduleUnderTest);moduleUnderTest.require=id=>id==='./http'?httpTest.exports:normalRequire(id);
+moduleUnderTest._compile(ts.transpileModule(fs.readFileSync('lib/media-client.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,__filename);
 const {uploadMedia}=moduleUnderTest.exports;
 (async()=>{
  const controller=new AbortController(),calls=[],progress=[];
