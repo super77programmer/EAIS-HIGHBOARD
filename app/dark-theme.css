@@ -2216,6 +2216,42 @@
 :where(html[data-theme="dark"]) .premium-navigation .nav-home.active .nav-icon {box-shadow:0 3px 9px rgba(0,0,0,0.11)
 }
 }
+:where(html[data-theme="dark"]) .appearance-popover {border:1px solid #574333;background:#2c261c;color:#eceae9;box-shadow:0 16px 48px rgba(0,0,0,0.141),0 2px 8px rgba(0,0,0,0.071)
+}
+:where(html[data-theme="dark"]) .appearance-panel-heading p {color:#beb7b1
+}
+:where(html[data-theme="dark"]) .appearance-panel-heading .icon-button {background:#2c241c
+}
+:where(html[data-theme="dark"]) .appearance-option {border:1px solid #574333;color:#beb7b1
+}
+:where(html[data-theme="dark"]) .appearance-option.selected {border-color:#5c3c2e;background:#2c221c;color:#ddb1a1
+}
+:where(html[data-theme="dark"]) .appearance-preview {background:#2c231c;border:1px solid #574333
+}
+:where(html[data-theme="dark"]) .appearance-preview i {background:#2c261c
+}
+:where(html[data-theme="dark"]) .appearance-preview i:first-child {background:#3b2e26
+}
+:where(html[data-theme="dark"]) .appearance-preview.preview-dark {border-color:#483f4a
+}
+:where(html[data-theme="dark"]) .preview-dark i {background:#322d34
+}
+:where(html[data-theme="dark"]) .preview-dark i:first-child {background:#3b2d26
+}
+:where(html[data-theme="dark"]) .appearance-preview.preview-system {background:linear-gradient(90deg,#2c231c 50%,#272126 50%)
+}
+:where(html[data-theme="dark"]) .preview-system i {background:linear-gradient(90deg,#2c261c 50%,#322d34 50%)
+}
+:where(html[data-theme="dark"]) .appearance-panel-note {color:#beb7b1;border-top:1px solid #5c432e
+}
+:where(html[data-theme="dark"]) .appearance-option-name>svg:last-child:not(:first-child) {background:#2c231c;color:#deb2a1
+}
+@media (hover:hover) {
+:where(html[data-theme="dark"]) .appearance-option:hover {border-color:#5c402e
+}
+:where(html[data-theme="dark"]) .appearance-panel-heading .icon-button:hover {background:#2c231c
+}
+}
 /* Keep important contrast pairs and media content intentional. */
 html[data-theme="dark"] body{background:radial-gradient(ellipse at 80% 0,#4430273d,transparent 42%),#19171b;color:var(--text)}
 html[data-theme="dark"] .header,html[data-theme="dark"] .desktop-rail{background:#211d22eF;border-color:#40343b}
@@ -2224,11 +2260,11 @@ html[data-theme="dark"] .primary{background:linear-gradient(135deg,#a64f3a,#9249
 html[data-theme="dark"] .school-home-surface,html[data-theme="dark"] .school-bulletin,html[data-theme="dark"] .personal-planner,html[data-theme="dark"] .reports-inbox,html[data-theme="dark"] .reports-detail{background:#252126;border-color:#44363d}
 html[data-theme="dark"] .poll-option.selected,html[data-theme="dark"] .home-focus-choice.selected{background:#4a2e34;border-color:#a76c64;color:#f7c4b6}
 html[data-theme="dark"] input,html[data-theme="dark"] select,html[data-theme="dark"] textarea{color:#f3eee9;caret-color:#f5b698;color-scheme:dark}html[data-theme="dark"] input::placeholder,html[data-theme="dark"] textarea::placeholder{color:#aa9e99;opacity:1}
-html[data-theme="dark"] .appearance-control,html[data-theme="dark"] .appearance-control select{color:var(--premium-ink);background:var(--premium-glass)}html[data-theme="dark"] .appearance-control option{background:#252126;color:#f3eee9}
+html[data-theme="dark"] .appearance-control,html[data-theme="dark"] .appearance-control select{color:var(--premium-ink);background:var(--premium-glass)}html[data-theme="dark"] .appearance-control option{background:#252126;color:#f3eee9}html[data-theme="dark"] .appearance-picker{background:transparent}html[data-theme="dark"] .appearance-popover{background:#282228;border-color:#534047}html[data-theme="dark"] .appearance-option.selected{background:#4a3029;border-color:#c48c72;color:#f4c5af}html[data-theme="dark"] .appearance-preview.preview-light{background:#f0e7df;border-color:#d6c6b9}html[data-theme="dark"] .preview-light i{background:#fffdf9}html[data-theme="dark"] .preview-light i:first-child{background:#cba58d}html[data-theme="dark"] .appearance-preview.preview-system{background:linear-gradient(90deg,#f0e7df 50%,#272126 50%)}html[data-theme="dark"] .preview-system i{background:linear-gradient(90deg,#fffdf9 50%,#665058 50%)}
 html[data-theme="dark"] .today .day-number,html[data-theme="dark"] .school-calendar .today .day-number{background:#a45642;color:#fff7ef}
 html[data-theme="dark"] .toast-feedback.toast-error,html[data-theme="dark"] .comm-error{color:#f6b8ac;background:#392528;border-color:#82564e}
 html[data-theme="dark"] .toast-feedback.toast-success,html[data-theme="dark"] .reports-confirmation{color:#b8dfc5;background:#24372e;border-color:#416951}
-html[data-theme="dark"] .premium-navigation .nav-home.active .nav-icon{color:var(--premium-home-ink)}
+html[data-theme="dark"] .premium-navigation .nav-home.active .nav-icon{color:var(--premium-accent);background:transparent;box-shadow:none}
 html[data-theme="dark"] .messenger{--message-accent:#efb09b;--message-ink:#f3eee9;--message-muted:#baa9a1}
 html[data-theme="dark"] .voice-message{--wave-idle:#a89b95;--wave-played:#efb39b}
 html[data-theme="dark"] .message-out .voice-message{--wave-idle:#b99b91;--wave-played:#f6c5b0}
