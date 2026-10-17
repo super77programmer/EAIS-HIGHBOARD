@@ -2,12 +2,12 @@
 
 The live domain remains owner-private for review. No school-wide access change has been made. Site sharing must be configured separately before students or teachers can visit.
 
-Teacher chat, private suggestions and council polls are together under Student voice (Small voices. Big changes.). Onboarding collects a local name and school email; this is not a verified identity.
+Teacher chat, private suggestions and council polls are together under Student voice (Small voices. Big changes.). Onboarding offers school Google sign-in first and an explicit guest browsing path. Guest class/name preferences do not grant verified identity.
 
 ## Activate school Google sign-in
 
 1. Ask the school's Google Workspace/Cloud administrator to create a **Web application** OAuth client for High Board, with the school's consent configuration.
-2. Add `https://high-board-student-life.astrecsehd.chatgpt.site` as an **Authorized JavaScript origin**. This implementation uses Google Identity Services' popup credential callback; it does not need an OAuth client secret.
+2. Add `https://high-board-student-life.ahmedramy-713.chatgpt.site` as an **Authorized JavaScript origin**. This implementation uses Google Identity Services' popup credential callback; it does not need an OAuth client secret.
 3. Open High Board → Admin login → council desk → **Google sign-in & language filter**. Paste the client ID ending in `.apps.googleusercontent.com` and save.
 4. In **School roster & teacher assignments**, enter each teacher's email, display name and classes taught (e.g. `8A, 8B`). Enter student school email/name/class, and grant council/staff roles only to authorized people. New verified accounts default to student with no assigned class and cannot start conversations until assigned.
 5. Test with actual school student and teacher accounts. The server verifies Google's JWT signature, issuer, audience, expiry, nonce, email verification and exact hosted domain `els-egypt.info`.

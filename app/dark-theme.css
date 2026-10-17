@@ -2252,6 +2252,34 @@
 :where(html[data-theme="dark"]) .appearance-panel-heading .icon-button:hover {background:#2c231c
 }
 }
+:where(html[data-theme="dark"]) .spotlight-tour .tour-ring {outline:2px solid #5c412e;box-shadow:0 0 0 1px #000000
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tutorial-card {border:1px solid #5c432e;background:#2c251c;box-shadow:0 18px 70px rgba(0,0,0,0.267)
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tutorial-card header>span {color:#d5bba9
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tutorial-progress button.done:before {background:#3b2d26
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tutorial-icon {background:#2c231c;color:#dcb3a2
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tutorial-content h2 {color:#e6dcd6
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tutorial-content>small {color:#d1bcae
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tutorial-content>p {color:#beb7b1
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tutorial-tip {background:#2c241c
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tutorial-tip p {color:#cebcb0
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tutorial-tip svg {color:#d7b9a8
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tutorial-card .primary {background:linear-gradient(120deg,#3b2e26,#3b2628);color:#ffffff
+}
+:where(html[data-theme="dark"]) .spotlight-tour .tour-later {color:#d0bcaf
+}
+:where(html[data-theme="dark"]) .tour-arrow {background:#2c251c
+}
 /* Keep important contrast pairs and media content intentional. */
 html[data-theme="dark"] body{background:radial-gradient(ellipse at 80% 0,#4430273d,transparent 42%),#19171b;color:var(--text)}
 html[data-theme="dark"] .header,html[data-theme="dark"] .desktop-rail{background:#211d22eF;border-color:#40343b}

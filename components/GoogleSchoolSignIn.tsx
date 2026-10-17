@@ -1,0 +1,9 @@
+'use client';
+import {useEffect,useRef,useState} from 'react';
+import {mountGoogleButton} from '@/lib/google-signin';
+import {readJSON} from '@/lib/http';
+import {invalidateCommunity} from '@/lib/community-client';
+export function GoogleSchoolSignIn({clientId,domain,onDone}:{clientId:string;domain:string;onDone:()=>void|Promise<void>}){const box=useRef<HTMLDivElement>(null),done=useRef(onDone);done.current=onDone;const [retry,setRetry]=useState(0),[loading,setLoading]=useState(true),[verifying,setVerifying]=useState(false),[error,setError]=useState('');
+ useEffect(()=>{let live=true,cleanup:(()=>void)|undefined;setLoading(true);setError('');if(box.current)mountGoogleButton(box.current,clientId,domain,async credential=>{if(!live)return;setVerifying(true);setError('');try{const r=await fetch('/api/school-auth',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({credential,name:'School student'}),signal:AbortSignal.timeout(15000)}),j=await readJSON<{error?:string}>(r);if(!r.ok)throw Error(j.error||'Google sign-in could not be verified.');invalidateCommunity();if(live)await done.current()}catch(e){if(live)setError((e as Error).message)}finally{if(live)setVerifying(false)}},()=>live).then(fn=>{if(live){cleanup=fn;setLoading(false)}else fn()}).catch(e=>{if(live){setError((e as Error).message);setLoading(false)}});return()=>{live=false;cleanup?.()}},[clientId,domain,retry]);
+ return <div className="google-school-connect"><p>Choose your <b>@{domain}</b> account in Google. Your password stays with Google.</p>{loading&&<p role="status">Preparing Google sign-in…</p>}<div className="google-button" ref={box} aria-busy={loading||verifying}/>{verifying&&<p role="status">Verifying your school account…</p>}{error&&<div className="comm-error" role="alert">{error}<button type="button" className="secondary" disabled={verifying} onClick={()=>setRetry(n=>n+1)}>Retry Google sign-in</button></div>}</div>
+}

@@ -18,6 +18,7 @@ import "./calendar.css";
 import "./desktop.css";
 import "./refinements.css";
 import "./premium.css";
+import "./welcome.css";
 import "./dark-theme.css";
 
 export const metadata: Metadata = {

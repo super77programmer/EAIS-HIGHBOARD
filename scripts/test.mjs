@@ -1,3 +1,3 @@
 import {spawnSync} from 'node:child_process';
-const tests=['appearance','http','reports','reports-ui','community-cache','communications','workspace-media','trip-interest','trip-questions','completion','media-cancel','intro','interface','school-ui','chat-composer','voice-recorder','voice-message','feedback-toast','calendar','day-agenda'];
+const tests=['welcome','appearance','http','reports','reports-ui','community-cache','communications','workspace-media','trip-interest','trip-questions','completion','media-cancel','intro','interface','school-ui','chat-composer','voice-recorder','voice-message','feedback-toast','calendar','day-agenda'];
 for(const test of tests){const result=spawnSync(process.execPath,['tests/'+test+'.cjs'],{encoding:'utf8'});if(result.status!==0){process.stderr.write(result.stderr||'');process.stdout.write(result.stdout||'');process.exit(result.status||1)}process.stdout.write(result.stdout||'')}
